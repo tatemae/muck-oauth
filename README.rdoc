@@ -1,11 +1,20 @@
 = muck-oauth
-This gem wraps oauth and oauth-plugin to make it simple to get tokens for services that muck can interact with
+This gem wraps oauth and oauth-plugin to make it simple to get tokens for services that muck can interact with various services.
 
 == Installation
 Add the following to environment.rb
   config.gem "oauth"
   config.gem "oauth-plugin"
   config.gem "muck-oauth"
+
+Add the following to your user model:
+  has_many :client_applications
+  has_many :tokens, :class_name => "OauthToken", :order => "authorized_at desc", :include => [:client_application]
+
+
+== Usage
+Add configuration for services to:
+  oauth_consumers.rb
 
 
 Copyright (c) 2009 Tatemae.com. See LICENSE for details.

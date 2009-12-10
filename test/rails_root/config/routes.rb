@@ -1,6 +1,4 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :oauth_consumers,:member=>{:callback=>:get}
-
   map.home '', :controller => 'default', :action => 'index'
   map.root :controller => 'default', :action => 'index'
   map.resources :contents
