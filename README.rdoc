@@ -1,6 +1,11 @@
 = muck-oauth
 This gem wraps oauth and oauth-plugin to make it simple to get tokens for services that muck can interact with various services.
 
+For more documentation see:
+http://github.com/pelle/oauth-plugin
+http://stakeventures.com/articles/2009/07/21/consuming-oauth-intelligently-in-rails
+http://stakeventures.com/articles/2008/02/23/developing-oauth-clients-in-ruby
+
 == Installation
 Add the following to environment.rb
   config.gem "oauth"
@@ -11,10 +16,15 @@ Add the following to your user model:
   has_many :client_applications
   has_many :tokens, :class_name => "OauthToken", :order => "authorized_at desc", :include => [:client_application]
 
-
+  has_one  :twitter_token, :class_name => "TwitterToken", :dependent => :destroy
+  
 == Usage
 Add configuration for services to:
-  oauth_consumers.rb
+  intializers/oauth_consumers.rb
 
+Link to each service like this:
+  <a href="/oauth_consumers/twitter">Twitter</a>
+  <a href="/oauth_consumers/google">Google</a>
+  
 
 Copyright (c) 2009 Tatemae.com. See LICENSE for details.

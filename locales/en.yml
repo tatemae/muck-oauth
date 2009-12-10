@@ -1,3 +1,7 @@
 en:
   muck:
     oauth:
+      registered_successfully: "Registered the information successfully"
+      updated_successfully: "Updated the client information successfully"
+      destroyed_successfully: "Destroyed the client application registration"
+      wrong_id: "Wrong application id"

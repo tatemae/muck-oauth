@@ -4,6 +4,7 @@
 # eg. :twitter => TwitterToken, :hour_feed => HourFeedToken etc.
 #
 # OAUTH_CREDENTIALS={
+#   get it at: http://twitter.com/apps
 #   :twitter=>{
 #     :key=>"",
 #     :secret=>""
