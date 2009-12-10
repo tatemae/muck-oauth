@@ -2,8 +2,7 @@ class ApplicationController < ActionController::Base
   include SslRequirement
   helper :all
   protect_from_forgery
-  acts_as_muck_content_handler
-  
+    
   layout 'default'
 
   protected
