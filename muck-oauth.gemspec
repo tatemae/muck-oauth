@@ -5,13 +5,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{muck-oauth}
-  s.version = "0.0.1"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball"]
   s.date = %q{2009-12-10}
-  s.description = %q{TODO: longer description of your gem}
-  s.email = %q{justinball@gmail.com}
+  s.description = %q{A simple wrapper for the oauth and oauth-plugin gems so that it is faster to include oauth in muck based applications.}
+  s.email = %q{justin@tatemae.com}
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
@@ -26,22 +26,22 @@ Gem::Specification.new do |s|
      "app/controllers/oauth_clients_controller.rb",
      "app/controllers/oauth_consumers_controller.rb",
      "app/controllers/oauth_controller.rb",
-     "app/controllers/views/oauth/authorize.html.erb",
-     "app/controllers/views/oauth/authorize_failure.html.erb",
-     "app/controllers/views/oauth/authorize_success.html.erb",
-     "app/controllers/views/oauth_clients/_form.html.erb",
-     "app/controllers/views/oauth_clients/edit.html.erb",
-     "app/controllers/views/oauth_clients/index.html.erb",
-     "app/controllers/views/oauth_clients/new.html.erb",
-     "app/controllers/views/oauth_clients/show.html.erb",
-     "app/controllers/views/oauth_consumers/index.html.erb",
-     "app/controllers/views/oauth_consumers/show.html.erb",
      "app/models/access_token.rb",
      "app/models/client_application.rb",
      "app/models/consumer_token.rb",
      "app/models/oauth_nonce.rb",
      "app/models/oauth_token.rb",
      "app/models/request_token.rb",
+     "app/views/oauth/authorize.html.erb",
+     "app/views/oauth/authorize_failure.html.erb",
+     "app/views/oauth/authorize_success.html.erb",
+     "app/views/oauth_clients/_form.html.erb",
+     "app/views/oauth_clients/edit.html.erb",
+     "app/views/oauth_clients/index.html.erb",
+     "app/views/oauth_clients/new.html.erb",
+     "app/views/oauth_clients/show.html.erb",
+     "app/views/oauth_consumers/index.html.erb",
+     "app/views/oauth_consumers/show.html.erb",
      "config/initializers/oauth_consumers.rb",
      "config/muck_oauth_routes.rb",
      "db/migrate/20091205001023_create_oauth_consumer_tokens.rb",
@@ -50,6 +50,7 @@ Gem::Specification.new do |s|
      "lib/muck_oauth/initialize_routes.rb",
      "lib/muck_oauth/tasks.rb",
      "locales/en.yml",
+     "muck-oauth.gemspec",
      "rails/init.rb",
      "test/rails_root/.gitignore",
      "test/rails_root/.rake_tasks",
@@ -1695,11 +1696,11 @@ Gem::Specification.new do |s|
      "test/rails_root/vendor/plugins/ssl_requirement/lib/ssl_requirement.rb",
      "test/rails_root/vendor/plugins/ssl_requirement/test/ssl_requirement_test.rb"
   ]
-  s.homepage = %q{http://github.com/jbasdf/muck-oauth}
+  s.homepage = %q{http://github.com/tatemae/muck-oauth}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{OAuth for muck}
   s.test_files = [
     "test/rails_root/app/controllers/application_controller.rb",
      "test/rails_root/app/controllers/default_controller.rb",
@@ -1768,12 +1769,18 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
-      s.add_development_dependency(%q<thoughtbot-shoulda>, [">= 0"])
+      s.add_runtime_dependency(%q<oauth>, [">= 0"])
+      s.add_runtime_dependency(%q<oauth-plugin>, [">= 0"])
+      s.add_development_dependency(%q<shoulda>, [">= 0"])
     else
-      s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
+      s.add_dependency(%q<oauth>, [">= 0"])
+      s.add_dependency(%q<oauth-plugin>, [">= 0"])
+      s.add_dependency(%q<shoulda>, [">= 0"])
     end
   else
-    s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
+    s.add_dependency(%q<oauth>, [">= 0"])
+    s.add_dependency(%q<oauth-plugin>, [">= 0"])
+    s.add_dependency(%q<shoulda>, [">= 0"])
   end
 end
 

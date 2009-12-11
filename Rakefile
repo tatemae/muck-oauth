@@ -15,6 +15,8 @@ begin
     gem.email = "justin@tatemae.com"
     gem.homepage = "http://github.com/tatemae/muck-oauth"
     gem.authors = ["Justin Ball"]
+    gem.add_dependency "oauth"
+    gem.add_dependency "oauth-plugin"
     gem.add_development_dependency "shoulda"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
