@@ -1,9 +1,9 @@
 <div class="flash"><%= flash[:notice] %></div>
-<h1>OAuth Client Applications</h1>
+<h1><%=translate('muck.oauth.oauth_client_applications') %></h1>
 <% unless @tokens.empty? %>
-<p>The following tokens have been issued to applications in your name</p>
+<p><%=translate('muck.oauth.tokens_issued') %></p>
 <table>
-  <tr><th>Application</th><th>Issued</th><th>&nbsp;</th></tr>
+  <tr><th><%=translate('muck.oauth.application') %></th><th><%=translate('muck.oauth.issued') %></th><th>&nbsp;</th></tr>
   <% @tokens.each do |token|%>
     <% content_tag_for :tr, token do %>
       <td><%= link_to token.client_application.name, token.client_application.url %></td>
@@ -11,7 +11,7 @@
       <td>
         <% form_tag :controller => 'oauth', :action => 'revoke' do %>
         <%= hidden_field_tag 'token', token.token %>
-        <%= submit_tag "Revoke!" %>
+        <%= submit_tag translate('muck.oauth.revoke') %>
         <% end %>
       </td>
     <% end %>
@@ -19,25 +19,25 @@
   
 </table>
 <% end %>
-<h3>Application Developers</h3>
+<h3><%=translate('muck.oauth.application_developers') %></h3>
 <% if @client_applications.empty? %>
   <p>
-    Do you have an application you would like to register for use with us using the <a href="http://oauth.net">OAuth</a> standard?
+    <%=translate('muck.oauth.do_you_have_an_application_to_register', :link => '<a href="http://oauth.net">OAuth</a>') %>
   </p>
   <p>
-    You must register your web application before it can make OAuth requests to this service
+    <%=translate('muck.oauth.you_must_register_your_web_application') %>
   </p>
 <% else %>
   <p>
-    You have the following client applications registered:
+    <%=translate('muck.oauth.you_have_the_following_client_applications_registered') %>
   </p>
   <% @client_applications.each do |client|%>
     <% div_for client do %>
       <%= link_to client.name, oauth_client_path(client) %>- 
-        <%= link_to 'Edit', edit_oauth_client_path(client) %>
-        <%= link_to 'Delete', oauth_client_path(client), :confirm => "Are you sure?", :method => :delete %>
+        <%= link_to translate('muck.oauth.edit'), edit_oauth_client_path(client) %>
+        <%= link_to translate('muck.oauth.delete'), oauth_client_path(client), :confirm => translate('muck.oauth.are_you_sure'), :method => :delete %>
     <% end %>
   <% end %>
 <% end %>
 <br />
-<h3><%= link_to "Register your application", :action => :new %></h3>
+<h3><%= link_to translate('muck.oauth.register_your_application'), :action => :new %></h3>

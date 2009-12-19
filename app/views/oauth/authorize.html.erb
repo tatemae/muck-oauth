@@ -1,12 +1,13 @@
-<h1>Authorize access to your account</h1>
-<p>Would you like to authorize <%= link_to @token.client_application.name,@token.client_application.url %> (<%= link_to @token.client_application.url,@token.client_application.url %>) to access your account?</p>
+<h1><%=translate('muck.oauth.authorize_access') %></h1>
+<p><%=translate('muck.oauth.authorize_access_question', :link => link_to @token.client_application.url,@token.client_application.url, 
+                                                        :name => link_to @token.client_application.name,@token.client_application.url) %></p>
 <% form_tag authorize_url do %>
   <%= hidden_field_tag "oauth_token", @token.token %>
   <%- if params[:oauth_callback] -%>
   <%= hidden_field_tag "oauth_callback", params[:oauth_callback] %>
 <%- end -%>
 <p>
-  <%= check_box_tag 'authorize' %> authorize access
+  <%= check_box_tag 'authorize' %> <%=translate('muck.oauth.authorize_access_label') %>
 </p>
 <p>
   <%= submit_tag %>

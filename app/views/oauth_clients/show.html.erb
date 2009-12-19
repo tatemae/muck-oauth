@@ -1,27 +1,27 @@
 <h1>OAuth details for <%=@client_application.name %></h1>
 <p>
-  <strong>Consumer Key:</strong>
+  <strong><%=translate('muck.oauth.consume_key') %></strong>
   <code><%=@client_application.key %></code>
 </p>
 <p>
-  <strong>Consumer Secret:</strong>
+  <strong><%=translate('muck.oauth.consume_secret') %></strong>
   <code><%=@client_application.secret %></code>
 </p>
 <p>
-  <strong>Request Token URL</strong>
+  <strong><%=translate('muck.oauth.request_token_url') %></strong>
   <code>http<%='s' if request.ssl? %>://<%= request.host_with_port %><%=@client_application.oauth_server.request_token_path %></code>
 </p>
 <p>
-  <strong>Access Token URL</strong>
+  <strong><%=translate('muck.oauth.access_token_url') %></strong>
   <code>http<%='s' if request.ssl? %>://<%= request.host_with_port %><%=@client_application.oauth_server.access_token_path %></code>
 </p>
 <p>
-  <strong>Authorize URL</strong>
+  <strong><%=translate('muck.oauth.authorize_url') %></strong>
   <code>http<%='s' if request.ssl? %>://<%= request.host_with_port %><%=@client_application.oauth_server.authorize_path %></code>
 </p>
 
 <p>
-  We support hmac-sha1 (recommended) as well as plain text in ssl mode.
+  <%=translate('muck.oauth.we_support_hmac_sha') %>
 </p>
-<%= link_to 'Edit', edit_oauth_client_path(@client_application) %> |
-<%= link_to 'Back', oauth_clients_path %>
+<%= link_to translate('muck.oauth.edit'), edit_oauth_client_path(@client_application) %> |
+<%= link_to translate('muck.oauth.back'), oauth_clients_path %>
