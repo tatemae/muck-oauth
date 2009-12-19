@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball"]
-  s.date = %q{2009-12-17}
+  s.date = %q{2009-12-19}
   s.description = %q{A simple wrapper for the oauth and oauth-plugin gems so that it is faster to include oauth in muck based applications.}
   s.email = %q{justin@tatemae.com}
   s.extra_rdoc_files = [
@@ -49,7 +49,50 @@ Gem::Specification.new do |s|
      "lib/muck_oauth.rb",
      "lib/muck_oauth/initialize_routes.rb",
      "lib/muck_oauth/tasks.rb",
+     "locales/ar.yml",
+     "locales/bg.yml",
+     "locales/ca.yml",
+     "locales/cs.yml",
+     "locales/da.yml",
+     "locales/de.yml",
+     "locales/el.yml",
      "locales/en.yml",
+     "locales/es.yml",
+     "locales/et.yml",
+     "locales/fa.yml",
+     "locales/fi.yml",
+     "locales/fr.yml",
+     "locales/gl.yml",
+     "locales/hi.yml",
+     "locales/hr.yml",
+     "locales/hu.yml",
+     "locales/id.yml",
+     "locales/it.yml",
+     "locales/iw.yml",
+     "locales/ja.yml",
+     "locales/ko.yml",
+     "locales/lt.yml",
+     "locales/lv.yml",
+     "locales/mt.yml",
+     "locales/nl.yml",
+     "locales/no.yml",
+     "locales/pl.yml",
+     "locales/pt-PT.yml",
+     "locales/ro.yml",
+     "locales/ru.yml",
+     "locales/sk.yml",
+     "locales/sl.yml",
+     "locales/sq.yml",
+     "locales/sr.yml",
+     "locales/sv.yml",
+     "locales/th.yml",
+     "locales/tl.yml",
+     "locales/tr.yml",
+     "locales/uk.yml",
+     "locales/vi.yml",
+     "locales/zh-CN.yml",
+     "locales/zh-TW.yml",
+     "locales/zh.yml",
      "muck-oauth.gemspec",
      "rails/init.rb",
      "test/rails_root/.gitignore",
@@ -1770,15 +1813,33 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<oauth>, [">= 0"])
       s.add_runtime_dependency(%q<oauth-plugin>, [">= 0"])
+      s.add_runtime_dependency(%q<twitter>, [">= 0"])
+      s.add_runtime_dependency(%q<portablecontacts>, [">= 0"])
+      s.add_runtime_dependency(%q<agree2>, [">= 0"])
+      s.add_runtime_dependency(%q<fireeagle>, [">= 0"])
+      s.add_runtime_dependency(%q<muck-engine>, [">= 0"])
+      s.add_runtime_dependency(%q<muck-users>, [">= 0"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
     else
       s.add_dependency(%q<oauth>, [">= 0"])
       s.add_dependency(%q<oauth-plugin>, [">= 0"])
+      s.add_dependency(%q<twitter>, [">= 0"])
+      s.add_dependency(%q<portablecontacts>, [">= 0"])
+      s.add_dependency(%q<agree2>, [">= 0"])
+      s.add_dependency(%q<fireeagle>, [">= 0"])
+      s.add_dependency(%q<muck-engine>, [">= 0"])
+      s.add_dependency(%q<muck-users>, [">= 0"])
       s.add_dependency(%q<shoulda>, [">= 0"])
     end
   else
     s.add_dependency(%q<oauth>, [">= 0"])
     s.add_dependency(%q<oauth-plugin>, [">= 0"])
+    s.add_dependency(%q<twitter>, [">= 0"])
+    s.add_dependency(%q<portablecontacts>, [">= 0"])
+    s.add_dependency(%q<agree2>, [">= 0"])
+    s.add_dependency(%q<fireeagle>, [">= 0"])
+    s.add_dependency(%q<muck-engine>, [">= 0"])
+    s.add_dependency(%q<muck-users>, [">= 0"])
     s.add_dependency(%q<shoulda>, [">= 0"])
   end
 end

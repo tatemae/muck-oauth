@@ -1,0 +1,12 @@
+<div id="oauth_current_services">
+  <% if consumer_tokens.empty? %>
+    <p><%=translate('muck.oauth.you_are_currently_not_connected_to_any_external_services') %></p>
+  <% else %>
+    <p><%=translate('muck.oauth.you_are_connected_to_the_following_services') %></p>
+    <ul>
+      <% consumer_tokens.each do |token| %>
+        <li class="<%=token.class.service_name.to_s.humanize%>"><%= link_to token.class.service_name.to_s.humanize, oauth_consumer_path(token.class.service_name) %></li>
+      <% end %>
+    </ul>
+  <% end %>
+</div>

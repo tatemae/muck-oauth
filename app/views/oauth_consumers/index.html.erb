@@ -1,29 +1,3 @@
 <h1><%=translate('muck.oauth.services') %></h1>
-
-<% if @consumer_tokens.empty? %>
-  <p>
-    <%=translate('muck.oauth.you_are_currently_not_connected_to_any_external_services') %>
-  </p>
-<% else %>
-  <p>
-    <%=translate('muck.oauth.you_are_connected_to_the_following_services') %>
-  </p>
-  <ul>
-    <% @consumer_tokens.each do |token| %>
-      <li>
-        <%= link_to token.class.service_name.to_s.humanize, oauth_consumer_path(token.class.service_name) %>
-      </li>
-    <% end %>
-  </ul>
-<% end %>
-
-<% unless @services.empty? %>
-<h3><%=translate('muck.oauth.you_can_connect_to_the_following_services') %></h3>
-<ul>
-  <% @services.each do |service| %>
-    <li>
-      <%= link_to service.to_s.humanize, oauth_consumer_path(service) %>
-    </li>
-  <% end %>
-</ul>
-<% end %>
+<%= oauth_current_services %>
+<%= oauth_available_services %>

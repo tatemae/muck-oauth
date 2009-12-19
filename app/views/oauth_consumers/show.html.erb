@@ -1,5 +1,5 @@
 <h1><%=translate('muck.oauth.you_are_already_connected_to', :service => params[:id].humanize) %></h1>
 <% form_tag oauth_consumer_path(params[:id]),:method=>:delete do %>
   <%=translate('muck.oauth.disconnect_or_reconnect', :disconnect => submit_tag(translate('muck.oauth.disconnect')),
-                                                     :reconnect => submit_tag translate('muck.oauth.reconnect')) %>
+                                                     :reconnect => submit_tag(translate('muck.oauth.reconnect'))) %>
 <% end %>

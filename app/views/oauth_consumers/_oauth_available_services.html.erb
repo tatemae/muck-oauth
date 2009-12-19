@@ -1,0 +1,10 @@
+<div id="oauth_available_services">
+  <% unless services.empty? %>
+    <h3><%=translate('muck.oauth.you_can_connect_to_the_following_services') %></h3>
+    <ul>
+      <% services.each do |service| %>
+        <li class="<%=service.to_s.humanize%>"><%= link_to service.to_s.humanize, oauth_consumer_path(service) %></li>
+      <% end %>
+    </ul>
+  <% end %>
+</div>
