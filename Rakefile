@@ -17,6 +17,12 @@ begin
     gem.authors = ["Justin Ball"]
     gem.add_dependency "oauth"
     gem.add_dependency "oauth-plugin"
+    gem.add_dependency "twitter"
+    gem.add_dependency "portablecontacts"
+    gem.add_dependency "agree2"
+    gem.add_dependency "fireeagle"
+    gem.add_dependency "muck-engine"
+    gem.add_dependency "muck-users"
     gem.add_development_dependency "shoulda"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
