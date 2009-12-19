@@ -1,0 +1,52 @@
+--- 
+da: 
+  muck: 
+    oauth: 
+      access_token_url: "Access Token URL"
+      application: Ansøgning
+      application_developers: "Application Developers"
+      are_you_sure: "Er du sikker?"
+      authorize_access: "Tillade adgang til din konto"
+      authorize_access_label: "tillade adgang"
+      authorize_access_question: "Vil du tillade {{name}} ({{link}}) at få adgang til din konto?"
+      authorize_url: "Godkend URL"
+      back: Tilbage
+      back_label: Tilbage
+      callback_label: "Callback URL *"
+      consume_key: "Forbruger Key:"
+      consume_secret: "Forbruger Secret:"
+      delete: Slet
+      destroyed_successfully: "Ødelagt klientprogrammet registrering"
+      disconnect: Afbryd
+      disconnect_or_reconnect: "{{disconnect}} Eller {{reconnect}} hvis du oplever et problem."
+      do_you_have_an_application_to_register: "Har du et program du ønsker at registrere til brug sammen med os ved hjælp af {{link}} standard?"
+      edit: Rediger
+      edit_application: "Rediger din ansøgning"
+      edit_label: Rediger
+      issued: Udstedt
+      main_application_label: "Main Application URL *"
+      name_label: "Navn *"
+      oauth_client_applications: "OAuth Client Applications"
+      or: eller
+      reconnect: Reconnect
+      register: Register
+      register_a_new_application: "Registrer en ny ansøgning"
+      register_your_application: "Registrer din ansøgning"
+      registered_successfully: "Registrerede oplysninger succes"
+      request_allowed: "Du har tilladt denne anmodning"
+      request_disallowed: "Du har afvist denne anmodning"
+      request_token_url: "Request Token URL"
+      revoke: Tilbagekald!
+      services: Services
+      show_label: Vise
+      support_url_label: "Support URL"
+      tokens_issued: "Følgende tokens er blevet udstedt til ansøgninger i dit navn"
+      updated_successfully: "Opdateret den kundeoplysninger succes"
+      we_support_hmac_sha: "Vi støtter hmac-sha1 (anbefales) såvel som almindelig tekst i SSL-tilstand."
+      wrong_id: "Forkert anvendelse id"
+      you_are_already_connected_to: "Du allerede har forbindelse til {{service}}"
+      you_are_connected_to_the_following_services: "Du er forbundet til følgende ydelser:"
+      you_are_currently_not_connected_to_any_external_services: "Du er i øjeblikket ikke er tilsluttet nogen eksterne tjenester."
+      you_can_connect_to_the_following_services: "Du kan oprette forbindelse til følgende ydelser:"
+      you_have_the_following_client_applications_registered: "Du har følgende kunden registrerede programmer:"
+      you_must_register_your_web_application: "Du skal registrere din web-applikation, før det kan lade OAuth anmodninger om denne tjeneste"

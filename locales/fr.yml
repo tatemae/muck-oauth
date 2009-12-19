@@ -1,0 +1,52 @@
+--- 
+fr: 
+  muck: 
+    oauth: 
+      access_token_url: "Jeton d&#39;accès Web"
+      application: Application
+      application_developers: "Application Developers"
+      are_you_sure: "Etes-vous sûr?"
+      authorize_access: "Autoriser l&#39;accès à votre compte"
+      authorize_access_label: "autoriser l&#39;accès"
+      authorize_access_question: "Souhaitez-vous autoriser ({{name}}) {{link}} pour accéder à votre compte?"
+      authorize_url: "Autoriser Web"
+      back: Retour
+      back_label: Retour
+      callback_label: "URL de rappel *"
+      consume_key: "Clés pour le consommateur:"
+      consume_secret: "Secret des consommateurs:"
+      delete: Supprimer
+      destroyed_successfully: "Détruit la demande d&#39;enregistrement du client"
+      disconnect: Déconnecter
+      disconnect_or_reconnect: "{{disconnect}} Ou {{reconnect}} si vous avez rencontré un problème."
+      do_you_have_an_application_to_register: "Avez-vous une application que vous désirez vous inscrire pour une utilisation avec nous en utilisant le standard {{link}}?"
+      edit: Modifier
+      edit_application: "Modifier votre demande"
+      edit_label: Modifier
+      issued: Délivré
+      main_application_label: "Application principale URL *"
+      name_label: "Nom *"
+      oauth_client_applications: "OAuth Client Applications"
+      or: ou
+      reconnect: Rebranchez
+      register: Inscrivez-vous
+      register_a_new_application: "Enregistrer une nouvelle demande"
+      register_your_application: "Inscrivez votre demande"
+      registered_successfully: "Les informations enregistrées avec succès"
+      request_allowed: "Vous avez permis à cette demande"
+      request_disallowed: "Vous avez rejeté cette demande"
+      request_token_url: "Demande de jeton Web"
+      revoke: Révoquer!
+      services: Services
+      show_label: Montrer
+      support_url_label: "Support Web"
+      tokens_issued: "Les jetons suivants ont été délivrés à des applications à votre nom"
+      updated_successfully: "Mise à jour des renseignements sur les clients avec succès"
+      we_support_hmac_sha: "Nous appuyons HMAC-SHA1 (recommandé), ainsi que du texte brut en mode SSL."
+      wrong_id: "Mauvaise application id"
+      you_are_already_connected_to: "Vous êtes déjà connecté à {{service}}"
+      you_are_connected_to_the_following_services: "Vous êtes connecté aux services suivants:"
+      you_are_currently_not_connected_to_any_external_services: "Vous êtes actuellement connecté à aucun des services extérieurs."
+      you_can_connect_to_the_following_services: "Vous pouvez vous connecter aux services suivants:"
+      you_have_the_following_client_applications_registered: "Vous avez les applications clientes enregistrés suivants:"
+      you_must_register_your_web_application: "Vous devez inscrire votre application Web avant de pouvoir faire des demandes OAuth à ce service"

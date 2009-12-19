@@ -1,0 +1,52 @@
+--- 
+pl: 
+  muck: 
+    oauth: 
+      access_token_url: "Token dostępu URL"
+      application: Aplikacja
+      application_developers: "Programiści aplikacji"
+      are_you_sure: "Czy na pewno?"
+      authorize_access: "Autoryzacji dostępu do konta"
+      authorize_access_label: "autoryzacji dostępu"
+      authorize_access_question: "Czy chcesz zezwolić {{name}} ({{link}}) dostępu do konta?"
+      authorize_url: "Zezwolić URL"
+      back: "Z powrotem"
+      back_label: "Z powrotem"
+      callback_label: "Callback URL *"
+      consume_key: "Konsumentów kluczowe:"
+      consume_secret: "Konsumentów Secret:"
+      delete: Usunąć
+      destroyed_successfully: "Zniszczony rejestracji aplikacji klienckiej"
+      disconnect: Rozłącz
+      disconnect_or_reconnect: "{{disconnect}} Lub {{reconnect}} jeśli wystąpiły problemy."
+      do_you_have_an_application_to_register: "Czy mają zastosowania chcieliby Państwo zarejestrować się do współpracy z nami za pomocą {{link}} norma?"
+      edit: Edycja
+      edit_application: "Edycja aplikacji"
+      edit_label: Edycja
+      issued: Wydawane
+      main_application_label: "Głównym zastosowaniem URL *"
+      name_label: "Imię i nazwisko *"
+      oauth_client_applications: "OAuth aplikacje klienckie"
+      or: lub
+      reconnect: Podłącz
+      register: "Zarejestruj się"
+      register_a_new_application: "Rejestracja nowego wniosku"
+      register_your_application: "Zarejestruj aplikacji"
+      registered_successfully: "Rejestracja informacji pomyślnie"
+      request_allowed: "Masz możliwość to żądanie"
+      request_disallowed: "Masz wyłączona, to żądanie"
+      request_token_url: "Wniosek Token URL"
+      revoke: Odwołaj!
+      services: Usługi
+      show_label: Pokazać
+      support_url_label: "URL Support"
+      tokens_issued: "Po żetony zostały wydane na wnioski w nazwie"
+      updated_successfully: "Aktualizacja informacji o klientach, z powodzeniem"
+      we_support_hmac_sha: "Popieramy hmac-sha1 (zalecane), jak również zwykły tekst w trybie SSL."
+      wrong_id: "Niewłaściwego stosowania id"
+      you_are_already_connected_to: "Jesteś już podłączony do {{service}}"
+      you_are_connected_to_the_following_services: "Jesteś podłączony do następujących usług:"
+      you_are_currently_not_connected_to_any_external_services: "Obecnie nie jesteś podłączony do wszelkich usług zewnętrznych."
+      you_can_connect_to_the_following_services: "Możesz łączyć się z następujących usług:"
+      you_have_the_following_client_applications_registered: "Dostępne są następujące aplikacje zarejestrowanych klientów:"
+      you_must_register_your_web_application: "Musisz się zarejestrować aplikacji internetowych przed może ona wnieść OAuth wnioski z tej usługi"

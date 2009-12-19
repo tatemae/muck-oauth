@@ -1,0 +1,52 @@
+--- 
+nl: 
+  muck: 
+    oauth: 
+      access_token_url: "Toegang Token URL"
+      application: Aanvraag
+      application_developers: "Application Developers"
+      are_you_sure: "Weet je het zeker?"
+      authorize_access: "Machtig toegang tot uw account"
+      authorize_access_label: "machtigen toegang"
+      authorize_access_question: "Wilt u {{name}} ({{link}}) machtigen om uw account te openen?"
+      authorize_url: "Machtig URL"
+      back: Terug
+      back_label: Terug
+      callback_label: "Callback URL *"
+      consume_key: "Consument Sleutel:"
+      consume_secret: "Consument Secret:"
+      delete: Wissen
+      destroyed_successfully: "Vernietigd de client-toepassing registratie"
+      disconnect: Koppel
+      disconnect_or_reconnect: "{{disconnect}} Of {{reconnect}} als je een probleem ervaren."
+      do_you_have_an_application_to_register: "Heeft u een toepassing die u wilt registreren voor gebruik met ons op via de {{link}} standaard?"
+      edit: Edit
+      edit_application: "Wijzig uw aanvraag"
+      edit_label: Edit
+      issued: Afgegeven
+      main_application_label: "Algemene Application URL *"
+      name_label: "Naam *"
+      oauth_client_applications: "OAuth Client Applicaties"
+      or: of
+      reconnect: Reconnect
+      register: Registreer
+      register_a_new_application: "Registreer een nieuwe aanvraag"
+      register_your_application: "Registreer uw aanvraag"
+      registered_successfully: "Geregistreerd de informatie succesvol"
+      request_allowed: "Je mag dit verzoek"
+      request_disallowed: "U heeft dit verzoek afgewezen"
+      request_token_url: "Verzoek Token URL"
+      revoke: Intrekken!
+      services: Diensten
+      show_label: Tonen
+      support_url_label: "Support URL"
+      tokens_issued: "De volgende penningen zijn afgegeven voor toepassingen in uw naam"
+      updated_successfully: "Updated de cliënt informatie succes"
+      we_support_hmac_sha: "Wij ondersteunen hmac-sha1 (aanbevolen) en als platte tekst in SSL-modus."
+      wrong_id: "Verkeerde toepassing id"
+      you_are_already_connected_to: "U bent reeds aangesloten op {{service}}"
+      you_are_connected_to_the_following_services: "U bent verbonden met de volgende diensten:"
+      you_are_currently_not_connected_to_any_external_services: "U bent momenteel niet verbonden met een externe diensten."
+      you_can_connect_to_the_following_services: "U kunt verbinding maken met de volgende diensten:"
+      you_have_the_following_client_applications_registered: "U hebt de volgende klant geregistreerd toepassingen:"
+      you_must_register_your_web_application: "U moet uw webapplicatie voordat het OAuth verzoeken kunnen maken van deze dienst"

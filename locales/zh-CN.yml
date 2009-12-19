@@ -1,0 +1,52 @@
+--- 
+zh-CN: 
+  muck: 
+    oauth: 
+      access_token_url: 访问令牌网址
+      application: 应用程序
+      application_developers: 应用开发商
+      are_you_sure: 你确定吗？
+      authorize_access: 授权使用您的帐户
+      authorize_access_label: 授权访问
+      authorize_access_question: "你想授权{{name}} ({{link}})访问您的帐户？"
+      authorize_url: 授权网址
+      back: 后面
+      back_label: 后面
+      callback_label: 回调网址*
+      consume_key: 消费者的关键：
+      consume_secret: 消费者的秘密：
+      delete: 删除
+      destroyed_successfully: 摧毁了客户端应用程序的注册
+      disconnect: 断开
+      disconnect_or_reconnect: "{{disconnect}}或{{reconnect}}如果你遇到了问题。"
+      do_you_have_an_application_to_register: "你有一个应用程序您想与我们使用的注册使用{{link}}标准？"
+      edit: 编辑
+      edit_application: 编辑您的应用程序
+      edit_label: 编辑
+      issued: 分
+      main_application_label: "主要应用程序的URL *"
+      name_label: 姓名*
+      oauth_client_applications: OAuth客户端应用程序
+      or: 或
+      reconnect: 重新连接
+      register: 注册
+      register_a_new_application: 注册一个新的应用程序
+      register_your_application: 注册您的应用程序
+      registered_successfully: 注册成功的信息
+      request_allowed: 您已允许这一要求
+      request_disallowed: 你否决了这一要求
+      request_token_url: 请求令牌网址
+      revoke: 撤销！
+      services: 服务
+      show_label: 显示
+      support_url_label: 支持URL
+      tokens_issued: 以下标记已发出你的名义申请
+      updated_successfully: 更新的客户端信息成功
+      we_support_hmac_sha: "我们支持HMAC - SHA1算法（推荐），以及在SSL模式纯文本。"
+      wrong_id: 错误的应用程序ID
+      you_are_already_connected_to: "你已经连接到{{service}}"
+      you_are_connected_to_the_following_services: 您连接到以下服务：
+      you_are_currently_not_connected_to_any_external_services: 您目前尚未连接到任何外部服务。
+      you_can_connect_to_the_following_services: 您可以连接到以下服务：
+      you_have_the_following_client_applications_registered: 您有以下客户端应用程序的注册：
+      you_must_register_your_web_application: 您必须注册您的Web应用程序，才能够OAuth要求这项服务

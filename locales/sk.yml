@@ -1,0 +1,52 @@
+--- 
+sk: 
+  muck: 
+    oauth: 
+      access_token_url: "Prístup Token URL"
+      application: Aplikácie
+      application_developers: "Application Developers"
+      are_you_sure: "Ste si istá?"
+      authorize_access: "Povoliť prístup k vášmu účtu"
+      authorize_access_label: "povoliť prístup"
+      authorize_access_question: "Chceli by ste povoliť {{name}} ({{link}}) prístup k vášmu účtu?"
+      authorize_url: "Povoliť URL"
+      back: Späť
+      back_label: Späť
+      callback_label: "Spätné volanie URL *"
+      consume_key: "Spotrebiteľské Kľúč:"
+      consume_secret: "Spotrebiteľské Secret:"
+      delete: Odstrániť
+      destroyed_successfully: "Zničil klientskej aplikácie zápisnicu"
+      disconnect: Odpojiť
+      disconnect_or_reconnect: "{{disconnect}} Alebo {{reconnect}} ak ste skúsený problém."
+      do_you_have_an_application_to_register: "Máte aplikáciu, ktorú chcete zaregistrovať pre použitie s nami za použitia štandardných {{link}}?"
+      edit: Upraviť
+      edit_application: "Upraviť aplikácii"
+      edit_label: Upraviť
+      issued: Vydaných
+      main_application_label: "Hlavné aplikácií URL *"
+      name_label: "Meno *"
+      oauth_client_applications: "OAuth klientskych aplikácií"
+      or: alebo
+      reconnect: "Znovu pripojiť"
+      register: Registrovať
+      register_a_new_application: "Registrovať novú žiadosť"
+      register_your_application: "Zaregistrovať aplikácie"
+      registered_successfully: "Registrovaných informácií úspešne"
+      request_allowed: "Máte možnosť túto žiadosť"
+      request_disallowed: "Máte nepovolenej touto žiadosťou"
+      request_token_url: "Žiadosť Token URL"
+      revoke: Zrušiť!
+      services: Služby
+      show_label: Ukázať
+      support_url_label: "Podpora URL"
+      tokens_issued: "Nasledujúce žetóny, ktoré boli vydané v žiadosti svoje meno"
+      updated_successfully: "Aktualizované informácie o klientoch, úspešne"
+      we_support_hmac_sha: "Podporujeme HMAC-SHA1 (odporúča sa), rovnako ako obyčajný text v ssl móde."
+      wrong_id: "Nesprávna aplikácia id"
+      you_are_already_connected_to: "Ste už pripojení k {{service}}"
+      you_are_connected_to_the_following_services: "Ste pripojení na nasledujúce služby:"
+      you_are_currently_not_connected_to_any_external_services: "Momentálne nie ste pripojení na žiadne externé služby."
+      you_can_connect_to_the_following_services: "Môžete sa pripojiť na nasledujúce služby:"
+      you_have_the_following_client_applications_registered: "Máte nasledujúce klient registrovaných žiadostí:"
+      you_must_register_your_web_application: "Musíte sa registrovať webové aplikácie, ako bude môcť urobiť OAuth žiadostí o túto službu"

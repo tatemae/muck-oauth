@@ -1,0 +1,52 @@
+--- 
+et: 
+  muck: 
+    oauth: 
+      access_token_url: "Juurdepääsu logo URL"
+      application: Rakendus
+      application_developers: "Application Developers"
+      are_you_sure: "Oled sa kindel?"
+      authorize_access: "Lubada juurdepääsu oma konto"
+      authorize_access_label: "lubada juurdepääs"
+      authorize_access_question: "Kas soovite lubada {{name}} ({{link}}) juurdepääsu oma konto?"
+      authorize_url: "Lubada URL"
+      back: Tagasi
+      back_label: Tagasi
+      callback_label: "Tagasihelistamisteenus URL *"
+      consume_key: "Tarbija Võti:"
+      consume_secret: "Tarbija salajane:"
+      delete: Kustutama
+      destroyed_successfully: "Hävitatud kliendi taotluse registreerimine"
+      disconnect: Katkesta
+      disconnect_or_reconnect: "{{disconnect}} Või {{reconnect}} kui teil on probleeme."
+      do_you_have_an_application_to_register: "Kas teil on rakendus, mida soovite registreerida kasutamiseks koos meiega {{link}} standard?"
+      edit: Edit
+      edit_application: "Muuda oma taotluse"
+      edit_label: Edit
+      issued: Emiteeritud
+      main_application_label: "Main Application URL *"
+      name_label: "Nimi *"
+      oauth_client_applications: "OAuth Kliendi Rakendused"
+      or: või
+      reconnect: Reconnect
+      register: Registreeru
+      register_a_new_application: "Registreeri uus rakendus"
+      register_your_application: Rekisteröidäksesi
+      registered_successfully: "Registreeritud teave edukalt"
+      request_allowed: "Sul on võimalik taotluse"
+      request_disallowed: "Olete keeldus selle taotluse"
+      request_token_url: "Soovin žetooni URL"
+      revoke: Tühista!
+      services: Teenused
+      show_label: Näitama
+      support_url_label: "Support URL"
+      tokens_issued: "Järgmised märgid on väljastatud taotluste Teie nimi"
+      updated_successfully: "Uuendatud kliendile teavet edukalt"
+      we_support_hmac_sha: "Toetame hmac-sha1 (soovitatav), samuti lihttekstina SSL režiimi."
+      wrong_id: "Vale taotlus nr"
+      you_are_already_connected_to: "Olete juba Ühendatud {{service}}"
+      you_are_connected_to_the_following_services: "Olete ühendatud järgmisi teenuseid:"
+      you_are_currently_not_connected_to_any_external_services: "Sa oled praegu ei ole ühendatud ühegi välise teenused."
+      you_can_connect_to_the_following_services: "Te võite ühendada järgmistele teenustele:"
+      you_have_the_following_client_applications_registered: "Olete pärast kliendi rakenduste registreeritud:"
+      you_must_register_your_web_application: "Te peate registreerima oma veebirakenduse enne kui ta saab teha OAuth taotluste seda teenust"

@@ -1,0 +1,52 @@
+--- 
+lt: 
+  muck: 
+    oauth: 
+      access_token_url: "Prieigos raktas URL"
+      application: Taikymas
+      application_developers: Kūrėjams
+      are_you_sure: "Ar tikrai?"
+      authorize_access: "Leidžia prieigą prie savo sąskaitos"
+      authorize_access_label: "leisti naudotis"
+      authorize_access_question: "Ar norite leisti {{name}} ({{link}}) prisijungti prie savo sąskaitos?"
+      authorize_url: "Leisti URL"
+      back: Atgal
+      back_label: Atgal
+      callback_label: "Callback adresas *"
+      consume_key: "Vartotojų Raktažodžiai:"
+      consume_secret: "Vartotojų Slaptas:"
+      delete: Ištrinti
+      destroyed_successfully: "Sunaikintas kliento prašymo užregistravimo"
+      disconnect: Atsijungti
+      disconnect_or_reconnect: "{{disconnect}} Arba {{reconnect}} jei jums iškilo problema."
+      do_you_have_an_application_to_register: "Turite taikymas norite registruotis naudoti su mumis naudodami {{link}} standartas?"
+      edit: Redaguoti
+      edit_application: "Keisti savo paraišką"
+      edit_label: Redaguoti
+      issued: Išleistos
+      main_application_label: "Main application adresas *"
+      name_label: "Vardas *"
+      oauth_client_applications: "OAuth kliento programos"
+      or: arba
+      reconnect: Pakartotinis
+      register: Registruotis
+      register_a_new_application: "Užsiregistruokite naują prašymą"
+      register_your_application: "Registracija jūsų paraiška"
+      registered_successfully: "Registruotas informacija sėkmingai"
+      request_allowed: "Jūs turite leisti šį prašymą"
+      request_disallowed: "Jūs neleidžiamus šį prašymą"
+      request_token_url: "Prašymas ženklas URL"
+      revoke: Atšaukti!
+      services: Paslaugos
+      show_label: Rodyti
+      support_url_label: "Support URL"
+      tokens_issued: "Šie ženklai buvo išleisti į prašymus Jūsų vardas"
+      updated_successfully: "Atnaujinta Kliento duomenys sėkmingai"
+      we_support_hmac_sha: "Mes remiame hmac-sha1 (rekomenduojama), taip pat kaip paprastas tekstas SSL režimas."
+      wrong_id: "Neteisingai taikant ID"
+      you_are_already_connected_to: "Jau esate prisijungę prie {{service}}"
+      you_are_connected_to_the_following_services: "Jūs esate prisijungę prie šių paslaugų:"
+      you_are_currently_not_connected_to_any_external_services: "Jūs šiuo metu nėra prijungtos prie bet kokios išorinės paslaugos."
+      you_can_connect_to_the_following_services: "Jūs galite prisijungti prie šių paslaugų:"
+      you_have_the_following_client_applications_registered: "Jūs taip kliento programos registruota:"
+      you_must_register_your_web_application: "Jūs turite užregistruoti savo internetinę taikomąją programą, prieš tai gali padaryti OAuth prašo šią paslaugą"

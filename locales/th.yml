@@ -1,0 +1,52 @@
+--- 
+th: 
+  muck: 
+    oauth: 
+      access_token_url: "URL Access Token"
+      application: การสมัคร
+      application_developers: "พัฒนา Application"
+      are_you_sure: คุณแน่ใจหรือไม่
+      authorize_access: อนุญาตเข้าสู่บัญชีของคุณ
+      authorize_access_label: อนุญาตให้เข้า
+      authorize_access_question: "คุณต้องการอนุญาต ({{name}}) {{link}} เพื่อเข้าถึงบัญชีของคุณหรือไม่"
+      authorize_url: "URL อนุญาต"
+      back: หลัง
+      back_label: หลัง
+      callback_label: "กลับ URL *"
+      consume_key: "คีย์ Consumer:"
+      consume_secret: "ความลับของผู้บริโภค:"
+      delete: ลบ
+      destroyed_successfully: ทำลายลงทะเบียนสมัครลูกค้า
+      disconnect: ปลด
+      disconnect_or_reconnect: "{{disconnect}} หรือ {{reconnect}} หากคุณประสบปัญหา."
+      do_you_have_an_application_to_register: "คุณมีโปรแกรมที่คุณต้องการลงทะเบียนเพื่อใช้กับเราโดยใช้มาตรฐาน {{link}}?"
+      edit: Edit
+      edit_application: แก้ไขใบสมัครของคุณ
+      edit_label: Edit
+      issued: ที่ออก
+      main_application_label: "Main Application URL *"
+      name_label: "ชื่อ *"
+      oauth_client_applications: "โปรแกรม OAuth ลูกค้า"
+      or: หรือ
+      reconnect: เชื่อมต่อ
+      register: ลงทะเบียน
+      register_a_new_application: ลงทะเบียนสมัครใหม่
+      register_your_application: ลงทะเบียนสมัคร
+      registered_successfully: ลงทะเบียนข้อมูลสำเร็จ
+      request_allowed: คุณได้รับอนุญาตคำขอนี้
+      request_disallowed: "คุณมี disallowed คำขอนี้"
+      request_token_url: "URL ขอ Token"
+      revoke: ยกเลิก!
+      services: การบริการ
+      show_label: แสดง
+      support_url_label: "URL Support"
+      tokens_issued: สัญญาณต่อไปนี้ได้รับการออกไปใช้งานในชื่อของคุณ
+      updated_successfully: อัปเดทข้อมูลลูกค้าสำเร็จ
+      we_support_hmac_sha: "เราสนับสนุน hmac-sha1 (แนะนำ) เป็นข้อความล้วนในโหมด SSL."
+      wrong_id: "สมัคร id ไม่ถูกต้อง"
+      you_are_already_connected_to: "คุณเชื่อมต่อแล้วให้ {{service}}"
+      you_are_connected_to_the_following_services: คุณเชื่อมต่อกับบริการดังต่อไปนี้
+      you_are_currently_not_connected_to_any_external_services: คุณยังไม่เชื่อมต่อไปยังบริการภายนอก.
+      you_can_connect_to_the_following_services: คุณสามารถเชื่อมต่อกับบริการดังต่อไปนี้
+      you_have_the_following_client_applications_registered: "คุณมีโปรแกรมต่อไปนี้ลูกค้าที่ลงทะเบียน:"
+      you_must_register_your_web_application: "คุณต้องลงทะเบียนสมัครเว็บของคุณก่อนที่จะสามารถขอ OAuth ให้บริการนี้"
