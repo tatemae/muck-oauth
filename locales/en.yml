@@ -14,6 +14,7 @@ en:
       issued: Issued
       main_application_label: Main Application URL*
       destroyed_successfully: Destroyed the client application registration
+      connect_to_account_title: Connect to your {{service}} account
       or: or
       register_a_new_application: Register a new application
       register: Register
