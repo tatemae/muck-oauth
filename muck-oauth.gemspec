@@ -43,6 +43,7 @@ Gem::Specification.new do |s|
      "app/views/oauth_clients/show.html.erb",
      "app/views/oauth_consumers/_oauth_available_services.html.erb",
      "app/views/oauth_consumers/_oauth_current_services.html.erb",
+     "app/views/oauth_consumers/_oauth_fancybox_scripts.html.erb",
      "app/views/oauth_consumers/index.html.erb",
      "app/views/oauth_consumers/show.html.erb",
      "config/initializers/oauth_consumers.rb",

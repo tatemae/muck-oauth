@@ -5,7 +5,7 @@
     <p><%=translate('muck.oauth.you_are_connected_to_the_following_services') %></p>
     <ul>
       <% consumer_tokens.each do |token| -%>
-        <li class="<%=token.class.service_name.to_s.parameterize%>">
+        <li class="<%=token.class.service_name.to_s.parameterize%> oauth_service">
           <%= link_to token.class.service_name.to_s.humanize, oauth_consumer_path(token.class.service_name), :class => 'oauthfancybox iframe' %>
         </li>
       <% end -%>
