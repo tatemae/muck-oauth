@@ -1,4 +1,4 @@
 <h1><%=translate('muck.oauth.services') %></h1>
-<%= oauth_current_services %>
-<%= oauth_available_services %>
+<%= oauth_current_services(current_user) %>
+<%= oauth_available_services(current_user) %>
 <%= oauth_fancybox_scripts %>

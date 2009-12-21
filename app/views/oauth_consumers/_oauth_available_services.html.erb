@@ -1,9 +1,9 @@
-<div id="oauth_available_services">
+<div id="oauth_available_services" class="oauth-services">
   <% unless services.empty? %>
     <h3><%=translate('muck.oauth.you_can_connect_to_the_following_services') %></h3>
-    <ul>
+    <ul <%='class="icon-list"' if include_icons%>>
       <% services.each do |service| -%>
-        <li class="<%=service.to_s.parameterize%> oauth_service" title="<%=translate('muck.oauth.connect_to_account_title', :service => service.to_s.humanize) %>">
+        <li class="<%=service.to_s.parameterize%> oauth_service service-link" <%= service_icon_background(service) if include_icons%> title="<%=translate('muck.oauth.connect_to_account_title', :service => service.to_s.humanize) %>">
           <%= link_to service.to_s.humanize, oauth_consumer_path(service), :class => 'oauthfancybox iframe' %>
         </li>
       <% end -%>
