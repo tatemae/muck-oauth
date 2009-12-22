@@ -13,7 +13,7 @@ credentials[:yahoo]     = { :key => GlobalConfig.yahoo_oauth_key,
                             :secret => GlobalConfig.yahoo_oauth_secret } if GlobalConfig.yahoo_oauth_key
 credentials[:flickr]    = { :key => GlobalConfig.flickr_oauth_key, 
                             :secret => GlobalConfig.flickr_oauth_secret } if GlobalConfig.flickr_oauth_key
-credentials[:linkedin]  = { :key => GlobalConfig.linkedin_key, 
+credentials[:linkedin]  = { :key => GlobalConfig.linkedin_oauth_key, 
                             :secret => GlobalConfig.linkedin_oauth_secret } if GlobalConfig.linkedin_oauth_key
 credentials[:fireeagle] = { :key => GlobalConfig.fireeagle_oauth_key,
                             :secret => GlobalConfig.fireeagle_oauth_secret } if GlobalConfig.fireeagle_oauth_key

@@ -13,10 +13,7 @@ Add the following to environment.rb
   config.gem "muck-oauth"
 
 Add the following to your user model:
-  has_many :client_applications
-  has_many :tokens, :class_name => "OauthToken", :order => "authorized_at desc", :include => [:client_application]
-
-  has_one  :twitter_token, :class_name => "TwitterToken", :dependent => :destroy
+  acts_as_muck_oauth_user
   
 == Usage
 Add configuration for services to:
@@ -35,10 +32,28 @@ a user's twitter account like this:
 Please see each gem's documentation for more information:
 Twitter Docs: http://rdoc.info/projects/jnunemaker/twitter
 Twitter Examples: http://github.com/jnunemaker/twitter-app/
+i.e.
+  user.twitter.client
 
 Linked In Docs: http://github.com/pengwynn/linkedin
+i.e.
+  user.linked_in.client
 
 Google Docs: http://github.com/pelle/portablecontacts
-(Used with user.google.portable_contacts)
+i.e.
+  user.google.portable_contacts
+
+Fire Eagle Docs: http://fireeagle.rubyforge.org/
+i.e.
+  user.fire_eagle.client
+
+Friend Feed Docs:
+None yet
+
+Yahoo Docs:
+None yet
+
+Flickr
+None yet
 
 Copyright (c) 2009 Tatemae.com. See LICENSE for details.
