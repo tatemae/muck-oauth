@@ -1,3 +1,4 @@
+# This was taken from an older version of the oauth-plugin gem.
 class YahooToken < ConsumerToken
   YAHOO_SETTINGS={
     :site=>"https://www.yahoo.com", 
