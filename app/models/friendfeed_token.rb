@@ -7,7 +7,7 @@ class FriendfeedToken < ConsumerToken
   } 
   
   def self.consumer 
-    @consumer||=create_consumer 
+    @consumer ||= create_consumer 
   end
   
   def self.create_consumer(options={}) 
