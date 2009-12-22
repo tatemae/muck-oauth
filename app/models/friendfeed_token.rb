@@ -3,7 +3,7 @@ class FriendfeedToken < ConsumerToken
     :site => "https://friendfeed.com", 
     :request_token_path => "/account/oauth/request_token", 
     :authorize_path => "/account/oauth/authorize", 
-    :access_token_path => "/accounts/account/oauth/access_token", 
+    :access_token_path => "/account/oauth/access_token", 
   } 
   
   def self.consumer 
@@ -16,6 +16,10 @@ class FriendfeedToken < ConsumerToken
   
   def self.get_request_token(callback_url) 
     consumer.get_request_token({ :oauth_callback => callback_url })
+  end
+  
+  def client
+    raise 'Implement client for friend feed.'
   end
   
 end

@@ -22,7 +22,7 @@ class LinkedinToken < ConsumerToken
   
   def client
     unless @client
-      @client = LinkedIn::Client.new(LinkedInToken.consumer.key, LinkedInToken.consumer.secret)
+      @client = ::LinkedIn::Client.new(LinkedinToken.consumer.key, LinkedinToken.consumer.secret)
       @client.authorize_from_access(token, secret)
     end 
     @client

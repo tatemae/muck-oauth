@@ -2,9 +2,15 @@ require 'oauth/controllers/consumer_controller'
 class OauthConsumersController < ApplicationController
   include Oauth::Controllers::ConsumerController
   
-  layout :choose_layout
-  
   def index
+  end
+  
+  def show
+    if @token
+      render 'oauth_consumers/show', :layout => false
+    else
+      super
+    end
   end
   
   protected
@@ -15,10 +21,6 @@ class OauthConsumersController < ApplicationController
     def go_back
       #params[:id]
       redirect_back_or_default('/')
-    end
-  
-    def choose_layout
-      'popup'
     end
   
 end
