@@ -11,10 +11,10 @@ credentials[:google]    = { :scope => "https://mail.google.com/mail/feed/atom/",
                             :secret => GlobalConfig.google_oauth_secret } if GlobalConfig.google_oauth_key
 credentials[:yahoo]     = { :key => GlobalConfig.yahoo_oauth_key, 
                             :secret => GlobalConfig.yahoo_oauth_secret } if GlobalConfig.yahoo_oauth_key
-credentials[:flickr]    = { :key => GlobalConfig.flickr_key, 
-                            :secret => GlobalConfig.flickr_secret } if GlobalConfig.flickr_key
+credentials[:flickr]    = { :key => GlobalConfig.flickr_oauth_key, 
+                            :secret => GlobalConfig.flickr_oauth_secret } if GlobalConfig.flickr_oauth_key
 credentials[:linkedin]  = { :key => GlobalConfig.linkedin_key, 
-                            :secret => GlobalConfig.linkedin_secret } if GlobalConfig.linkedin_key
+                            :secret => GlobalConfig.linkedin_oauth_secret } if GlobalConfig.linkedin_oauth_key
 credentials[:fireeagle] = { :key => GlobalConfig.fireeagle_oauth_key,
                             :secret => GlobalConfig.fireeagle_oauth_secret } if GlobalConfig.fireeagle_oauth_key
 credentials[:friendfeed] = { :key => GlobalConfig.friendfeed_oauth_key,

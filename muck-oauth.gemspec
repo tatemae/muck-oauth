@@ -53,6 +53,7 @@ Gem::Specification.new do |s|
      "config/muck_oauth_routes.rb",
      "db/migrate/20091205001023_create_oauth_consumer_tokens.rb",
      "db/migrate/20091210172015_create_oauth_tables.rb",
+     "lib/active_record/acts/muck_oauth_user.rb",
      "lib/muck_oauth.rb",
      "lib/muck_oauth/initialize_routes.rb",
      "lib/muck_oauth/tasks.rb",

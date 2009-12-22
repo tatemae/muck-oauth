@@ -6,7 +6,7 @@
     <ul <%='class="icon-list"' if include_icons%>>
       <% consumer_tokens.each do |token| -%>
         <li class="<%=token.class.service_name.to_s.parameterize%> oauth_service service-link" <%= service_icon_background(token.class.service_name) if include_icons %>>
-          <%= link_to token.class.service_name.to_s.humanize, oauth_consumer_path(token.class.service_name), :class => 'oauthfancybox iframe' %>
+          <%= link_to oauth_service_name(token.class.service_name), oauth_consumer_path(token.class.service_name), :class => 'oauthfancybox' %>
         </li>
       <% end -%>
     </ul>

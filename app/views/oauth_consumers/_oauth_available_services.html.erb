@@ -4,7 +4,7 @@
     <ul <%='class="icon-list"' if include_icons%>>
       <% services.each do |service| -%>
         <li class="<%=service.to_s.parameterize%> oauth_service service-link" <%= service_icon_background(service) if include_icons%> title="<%=translate('muck.oauth.connect_to_account_title', :service => service.to_s.humanize) %>">
-          <%= link_to service.to_s.humanize, oauth_consumer_path(service), :class => 'oauthfancybox iframe' %>
+          <%= link_to oauth_service_name(service), oauth_consumer_path(service) %>
         </li>
       <% end -%>
     </ul>

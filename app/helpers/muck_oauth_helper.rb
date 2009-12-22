@@ -34,4 +34,12 @@ module MuckOauthHelper
     @oauth_services ||= OAUTH_CREDENTIALS.keys-oauth_consumer_tokens(user).collect{ |c| c.class.service_name }
   end
   
+  def oauth_service_name(service_name)
+    name = service_name.to_s.humanize
+    name = 'Fire Eagle' if name == 'Fireeagle'
+    name = 'LinkedIn' if name == 'Linkedin' 
+    name = 'FriendFeed' if name == 'Friendfeed' 
+    name
+  end
+  
 end

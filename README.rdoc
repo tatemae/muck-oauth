@@ -26,5 +26,19 @@ Link to each service like this:
   <a href="/oauth_consumers/twitter">Twitter</a>
   <a href="/oauth_consumers/google">Google</a>
   
+Each service provides methods that enable communication with the service's api via popular gems.
+For example, the twitter service uses the twitter gem and so you can call methods against 
+a user's twitter account like this:
+
+  user.twitter.client.verify_credentials[:screen_name]
+
+Please see each gem's documentation for more information:
+Twitter Docs: http://rdoc.info/projects/jnunemaker/twitter
+Twitter Examples: http://github.com/jnunemaker/twitter-app/
+
+Linked In Docs: http://github.com/pengwynn/linkedin
+
+Google Docs: http://github.com/pelle/portablecontacts
+(Used with user.google.portable_contacts)
 
 Copyright (c) 2009 Tatemae.com. See LICENSE for details.
