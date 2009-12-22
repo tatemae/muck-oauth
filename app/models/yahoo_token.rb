@@ -1,34 +1,34 @@
 # This was taken from an older version of the oauth-plugin gem.
 class YahooToken < ConsumerToken
   YAHOO_SETTINGS={
-    :site=>"https://www.yahoo.com", 
+    :site => "https://www.yahoo.com", 
     :request_token_url => "https://api.login.yahoo.com/oauth/v2/get_request_token",
     :authorize_url => "https://api.login.yahoo.com/oauth/v2/request_auth",
     :access_token_url => "https://api.login.yahoo.com/oauth/v2/get_token"
   }
   
   def self.consumer
-    @consumer||=create_consumer
+    @consumer ||= create_consumer
   end
   
   def self.create_consumer(options={})
-    OAuth::Consumer.new credentials[:key],credentials[:secret],YAHOO_SETTINGS.merge(options)
+    OAuth::Consumer.new credentials[:key], credentials[:secret],YAHOO_SETTINGS.merge(options)
   end
   
   def self.social_apis_consumer
-    @social_api_consumer||=create_consumer :site=>"http://social.yahooapis.com/v1"
+    @social_api_consumer ||= create_consumer :site => "http://social.yahooapis.com/v1"
   end
   
-  def self.get_request_token(callback_url, scope=nil)
-    YahooRequestToken.new consumer.get_request_token({:oauth_callback=>callback_url}, :scope=>scope||credentials[:scope])
+  def self.get_request_token(callback_url, scope = nil)
+    YahooRequestToken.new consumer.get_request_token({:oauth_callback => callback_url}, :scope => scope || credentials[:scope])
   end
   
   # We need to do some special handling to handle this strange parameter:
   # 
   class YahooRequestToken < OAuth::RequestToken
     def initialize(real_token)
-      super real_token.consumer,real_token.token,real_token.secret
-      @params=real_token.params
+      super real_token.consumer, real_token.token, real_token.secret
+      @params = real_token.params
     end
     
     # handle xoauth_request_auth_url
@@ -50,7 +50,7 @@ class YahooToken < ConsumerToken
     # http://developer.yahoo.com/social/rest_api_guide/index.html
     # Please fork and submit improvements here
     def guid
-      @guid||=get("/v1/me/guid")["guid"]["value"]
+      @guid ||= get("/v1/me/guid")["guid"]["value"]
     end
     
     def usercard

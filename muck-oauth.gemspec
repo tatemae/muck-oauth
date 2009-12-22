@@ -30,9 +30,12 @@ Gem::Specification.new do |s|
      "app/models/access_token.rb",
      "app/models/client_application.rb",
      "app/models/consumer_token.rb",
+     "app/models/friendfeed_token.rb",
+     "app/models/linkedin_token.rb",
      "app/models/oauth_nonce.rb",
      "app/models/oauth_token.rb",
      "app/models/request_token.rb",
+     "app/models/yahoo_token.rb",
      "app/views/oauth/authorize.html.erb",
      "app/views/oauth/authorize_failure.html.erb",
      "app/views/oauth/authorize_success.html.erb",
@@ -1821,6 +1824,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<portablecontacts>, [">= 0"])
       s.add_runtime_dependency(%q<agree2>, [">= 0"])
       s.add_runtime_dependency(%q<fireeagle>, [">= 0"])
+      s.add_runtime_dependency(%q<linkedin>, [">= 0"])
       s.add_runtime_dependency(%q<muck-engine>, [">= 0"])
       s.add_runtime_dependency(%q<muck-users>, [">= 0"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
@@ -1831,6 +1835,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<portablecontacts>, [">= 0"])
       s.add_dependency(%q<agree2>, [">= 0"])
       s.add_dependency(%q<fireeagle>, [">= 0"])
+      s.add_dependency(%q<linkedin>, [">= 0"])
       s.add_dependency(%q<muck-engine>, [">= 0"])
       s.add_dependency(%q<muck-users>, [">= 0"])
       s.add_dependency(%q<shoulda>, [">= 0"])
@@ -1842,6 +1847,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<portablecontacts>, [">= 0"])
     s.add_dependency(%q<agree2>, [">= 0"])
     s.add_dependency(%q<fireeagle>, [">= 0"])
+    s.add_dependency(%q<linkedin>, [">= 0"])
     s.add_dependency(%q<muck-engine>, [">= 0"])
     s.add_dependency(%q<muck-users>, [">= 0"])
     s.add_dependency(%q<shoulda>, [">= 0"])
