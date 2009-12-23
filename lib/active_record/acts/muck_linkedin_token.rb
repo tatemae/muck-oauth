@@ -4,6 +4,13 @@ module ActiveRecord
   module Acts #:nodoc:
     module MuckLinkedinToken # :nodoc:
 
+      LINKEDIN_SETTINGS={
+        :site => "https://api.linkedin.com", 
+        :request_token_path => "/uas/oauth/requestToken",
+        :access_token_path  => "/uas/oauth/accessToken",
+        :authorize_path     => "/uas/oauth/authorize"
+      }
+      
       def self.included(base)
         base.extend(ClassMethods)
       end
@@ -24,13 +31,6 @@ module ActiveRecord
       # class methods
       module SingletonMethods
         
-        LINKEDIN_SETTINGS={
-          :site => "https://api.linkedin.com", 
-          :request_token_path => "/uas/oauth/requestToken",
-          :access_token_path  => "/uas/oauth/accessToken",
-          :authorize_path     => "/uas/oauth/authorize"
-        }
-
         def consumer
           @consumer ||= create_consumer
         end 
