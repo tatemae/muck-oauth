@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball"]
-  s.date = %q{2009-12-22}
+  s.date = %q{2009-12-23}
   s.description = %q{A simple wrapper for the oauth and oauth-plugin gems so that it is faster to include oauth in muck based applications.}
   s.email = %q{justin@tatemae.com}
   s.extra_rdoc_files = [
@@ -30,12 +30,9 @@ Gem::Specification.new do |s|
      "app/models/access_token.rb",
      "app/models/client_application.rb",
      "app/models/consumer_token.rb",
-     "app/models/friendfeed_token.rb",
-     "app/models/linkedin_token.rb",
      "app/models/oauth_nonce.rb",
      "app/models/oauth_token.rb",
      "app/models/request_token.rb",
-     "app/models/yahoo_token.rb",
      "app/views/oauth/authorize.html.erb",
      "app/views/oauth/authorize_failure.html.erb",
      "app/views/oauth/authorize_success.html.erb",
