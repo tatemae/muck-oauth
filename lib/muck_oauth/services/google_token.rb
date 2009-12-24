@@ -14,7 +14,7 @@ class GoogleToken < ConsumerToken
   end 
   
   def self.create_consumer(options={})
-    OAuth::Consumer.new credentials[:key],credentials[:secret],GOOGLE_SETTINGS.merge(options)
+    OAuth::Consumer.new credentials[:key], credentials[:secret], GOOGLE_SETTINGS.merge(options)
   end
     
   def self.get_request_token(callback_url, scope=nil)
