@@ -1,3 +1,5 @@
+require 'muck_oauth/google_token'
+
 ActionController::Base.send :helper, MuckOauthHelper
 
 ActiveRecord::Base.class_eval { include ActiveRecord::Acts::MuckOauthUser }

@@ -34,7 +34,6 @@ Gem::Specification.new do |s|
      "app/models/oauth_token.rb",
      "app/models/request_token.rb",
      "app/models/services/friendfeed_token.rb",
-     "app/models/services/google_token.rb",
      "app/models/services/linkedin_token.rb",
      "app/models/services/yahoo_token.rb",
      "app/views/oauth/authorize.html.erb",
