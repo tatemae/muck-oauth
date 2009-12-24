@@ -22,6 +22,7 @@ begin
     gem.add_dependency "agree2"
     gem.add_dependency "fireeagle"
     gem.add_dependency "linkedin"
+    gem.add_dependency "overlord"
     gem.add_dependency "muck-engine"
     gem.add_dependency "muck-users"
     gem.add_development_dependency "shoulda"

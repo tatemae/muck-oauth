@@ -51,3 +51,4 @@ en:
       we_support_hmac_sha: We support hmac-sha1 (recommended) as well as plain text in ssl mode.
       consume_secret: "Consumer Secret:"
       request_disallowed: You have disallowed this request
+      http_result_error: "There was a problem with your request {{error}}"

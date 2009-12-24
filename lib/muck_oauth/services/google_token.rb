@@ -32,11 +32,10 @@ class GoogleToken < ConsumerToken
     convert_google_contacts_json_to_users(load_contacts(limit))
   end
 
+  # Loads contacts using Google api and OAuth token.
   def load_contacts(limit = 10000)
-    #http://www.google.com/m8/feeds/contacts/default/full
-    #http://www.google.com/m8/feeds/contacts/default/base
-    uri = client.create_signed_request(:get, "http://www.google.com/m8/feeds/contacts/default/full?max-results=#{limit}", token, { :scheme => :query_string })
-    get(uri)
+    path = "http://www.google.com/m8/feeds/contacts/default/full?max-results=#{limit}&alt=json"
+    request_path(path)
   end
   
   # Converts json returned from google into a feed object
@@ -53,11 +52,22 @@ class GoogleToken < ConsumerToken
     end
   end
   
-  #
-  # Overlord::GoogleContacts.validate_token(user.google.token)
-  def validate_token
-    uri = client.create_signed_request(:get, 'https://www.google.com/accounts/AuthSubTokenInfo', token)
-    get(uri)
+  # Loads a user's groups using Google api and OAuth token.
+  def load_groups(limit = 10000)
+    path = "http://www.google.com/m8/feeds/groups/default/full?max-results=#{limit}&alt=json"
+    request_path(path)
+  end
+  
+  def request_path(path)
+    request = GoogleToken.consumer.create_signed_request(:get, path, self, { :scheme => :header })
+    uri = URI.parse(path)
+    http = Net::HTTP.new(uri.host, uri.port)
+    response = http.request(request)
+    if response.code == '200'
+      JSON.parse(response.body)
+    else
+      raise MuckOauth::Exceptions::HTTPResultError, I18n.t('muck.oauth.http_result_error', error => response.to_s)
+    end
   end
   
 end
