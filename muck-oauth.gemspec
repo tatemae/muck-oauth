@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball"]
-  s.date = %q{2009-12-23}
+  s.date = %q{2009-12-24}
   s.description = %q{A simple wrapper for the oauth and oauth-plugin gems so that it is faster to include oauth in muck based applications.}
   s.email = %q{justin@tatemae.com}
   s.extra_rdoc_files = [
@@ -52,6 +52,7 @@ Gem::Specification.new do |s|
      "db/migrate/20091210172015_create_oauth_tables.rb",
      "lib/active_record/acts/muck_oauth_user.rb",
      "lib/muck_oauth.rb",
+     "lib/muck_oauth/exceptions.rb",
      "lib/muck_oauth/initialize_routes.rb",
      "lib/muck_oauth/services/friendfeed_token.rb",
      "lib/muck_oauth/services/google_token.rb",
