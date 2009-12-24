@@ -1,4 +1,7 @@
-require 'muck_oauth/google_token'
+require 'muck_oauth/services/friendfeed_token'
+require 'muck_oauth/services/google_token'
+require 'muck_oauth/services/linkedin_token'
+require 'muck_oauth/services/yahoo_token'
 
 ActionController::Base.send :helper, MuckOauthHelper
 
