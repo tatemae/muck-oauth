@@ -1,4 +1,4 @@
-RAILS_GEM_VERSION = '2.3.4' unless defined? RAILS_GEM_VERSION
+RAILS_GEM_VERSION = '2.3.5' unless defined? RAILS_GEM_VERSION
 
 require File.join(File.dirname(__FILE__), 'boot')
 
@@ -26,4 +26,7 @@ Rails::Initializer.run do |config|
   config.gem 'muck-engine', :lib => 'muck_engine'
   config.gem 'muck-users', :lib => 'muck_users'
   config.plugin_locators << TestGemLocator
+
+  #config.active_record.default_timezone = :utc
+  config.time_zone = 'UTC'
 end

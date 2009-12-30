@@ -29,6 +29,10 @@ form fieldset input[type="text"],form fieldset input[type="password"]{width:500p
 .thumb{width:100px;height:100px;}
 .medium{width:300px;height:300px;}
 
+/*icons*/
+ul.icon-list{margin:0;padding:0;list-style:none;}
+ul.icon-list a{display:inline-block;margin:2px 0;padding:2px 0 5px 28px;text-decoration:none;}
+
 /* tips */
 .availability{color:#b61e12;position:absolute;}
 .hidden-tips{display:none;}
@@ -84,3 +88,6 @@ div.jGrowl div.jGrowl-notification h2{text-align:left;font-weight:bold;padding:5
 #errorExplanation h2{text-align:left;font-weight:bold;padding:5px 5px 5px 15px;font-size:16px;background-color:#B61E12;color:#fff;}
 #errorExplanation p{color:#333;margin-bottom:0;padding:5px;}
 #errorExplanation ul li{list-style:square;}
+
+/* support */
+.support-information{font-size:9px;color:#333;}
