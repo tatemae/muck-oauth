@@ -1,10 +1,10 @@
 # This was taken from an older version of the oauth-plugin gem.
 class YahooToken < ConsumerToken
   YAHOO_SETTINGS={
-    :site => "https://www.yahoo.com", 
-    :request_token_url => "https://api.login.yahoo.com/oauth/v2/get_request_token",
-    :authorize_url => "https://api.login.yahoo.com/oauth/v2/request_auth",
-    :access_token_url => "https://api.login.yahoo.com/oauth/v2/get_token"
+    :site => "https://api.login.yahoo.com",
+    :request_token_url => "/oauth/v2/get_request_token",
+    :authorize_url => "/oauth/v2/request_auth",
+    :access_token_url => "/oauth/v2/get_token"
   }
   
   def self.consumer
@@ -81,17 +81,17 @@ end
 # The only change below is that it strips the response.body. Once Yahoo fixes this I will remove this whole section.
 module OAuth
   class Consumer
-    
+
     def token_request(http_method, path, token = nil, request_options = {}, *arguments)
       response = request(http_method, path, token, request_options, *arguments)
- 
+
       case response.code.to_i
- 
+
       when (200..299)
         # symbolize keys
         # TODO this could be considered unexpected behavior; symbols or not?
         # TODO this also drops subsequent values from multi-valued keys
-        
+
         CGI.parse(response.body.strip).inject({}) do |h,(k,v)|
           h[k.to_sym] = v.first
           h[k]        = v.first
