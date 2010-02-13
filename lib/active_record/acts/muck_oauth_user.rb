@@ -19,18 +19,18 @@ module ActiveRecord
         # After adding this method to a user you will be able to call methods against these services ie:
         # user.linked_in.client.profile
         def acts_as_muck_oauth_user
-          
+
           has_many :client_applications
-          has_many :tokens, :class_name => "OauthToken", :order => "authorized_at desc", :include => [:client_application]
-                    
-          has_one  :twitter, :class_name => "TwitterToken", :dependent => :destroy
-          has_one  :google, :class_name => "GoogleToken", :dependent => :destroy
-          has_one  :linked_in, :class_name => "LinkedinToken", :dependent => :destroy
-          has_one  :yahoo, :class_name => "YahooToken", :dependent => :destroy
-          has_one  :fire_eagle, :class_name => "FireeagleToken", :dependent => :destroy
-          has_one  :flickr, :class_name => "FlickrToken", :dependent => :destroy
-          has_one  :friend_feed, :class_name => "FriendfeedToken", :dependent => :destroy
-          
+          has_many :tokens, :class_name => "OauthToken", :order => "authorized_at desc", :include => [:client_application], :dependent => :destroy
+
+          has_one  :twitter, :class_name => "TwitterToken"
+          has_one  :google, :class_name => "GoogleToken"
+          has_one  :linked_in, :class_name => "LinkedinToken"
+          has_one  :yahoo, :class_name => "YahooToken"
+          has_one  :fire_eagle, :class_name => "FireeagleToken"
+          has_one  :flickr, :class_name => "FlickrToken"
+          has_one  :friend_feed, :class_name => "FriendfeedToken"
+
           include ActiveRecord::Acts::MuckOauthUser::InstanceMethods
           extend ActiveRecord::Acts::MuckOauthUser::SingletonMethods
         end
