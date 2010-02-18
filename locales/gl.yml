@@ -13,6 +13,7 @@ gl:
       back: Costas
       back_label: Costas
       callback_label: "Callback URL *"
+      connect_to_account_title: "Entra á túa conta {{service}}"
       consume_key: "Consumidor clave:"
       consume_secret: "Consumidor segredo:"
       delete: Borrar
@@ -23,6 +24,7 @@ gl:
       edit: Editar
       edit_application: "Edita súa solicitude"
       edit_label: Editar
+      http_result_error: "Houbo un problema coa súa solicitude {{error}}"
       issued: Emitido
       main_application_label: "Aplicación principal URL *"
       name_label: "Nome *"

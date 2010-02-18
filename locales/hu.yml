@@ -13,6 +13,7 @@ hu:
       back: Vissza
       back_label: Vissza
       callback_label: "Callback URL *"
+      connect_to_account_title: "Csatlakozni a {{service}} számla"
       consume_key: "Fogyasztói Kulcs:"
       consume_secret: "Fogyasztói Titkos:"
       delete: Töröl
@@ -23,6 +24,7 @@ hu:
       edit: Szerkesztés
       edit_application: "Szerkeszd a kérelem"
       edit_label: Szerkesztés
+      http_result_error: "Volt egy probléma a kérés {{error}}"
       issued: Kiállítani
       main_application_label: "Fő alkalmazás URL *"
       name_label: "Név *"

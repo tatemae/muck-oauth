@@ -13,6 +13,7 @@ ar:
       back: خلف
       back_label: خلف
       callback_label: "رد رابط *"
+      connect_to_account_title: "الاتصال حسابك {{service}}"
       consume_key: "الاستهلاكية الرئيسية :"
       consume_secret: "المستهلك السري :"
       delete: حذف
@@ -23,6 +24,7 @@ ar:
       edit: عدل
       edit_application: "عدل طلبك"
       edit_label: عدل
+      http_result_error: "كانت هناك مشكلة مع الطلب الخاص بك {{error}}"
       issued: أصدر
       main_application_label: "* العنوان الرئيسي التطبيق"
       name_label: "الاسم *"

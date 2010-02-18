@@ -13,6 +13,7 @@ pt-PT:
       back: Costas
       back_label: Costas
       callback_label: "Callback URL *"
+      connect_to_account_title: "Conectar-se à sua conta {{service}}"
       consume_key: "Consumidor-chave:"
       consume_secret: "Consumidor Secreto:"
       delete: Excluir
@@ -23,6 +24,7 @@ pt-PT:
       edit: Editar
       edit_application: "Edite seu pedido"
       edit_label: Editar
+      http_result_error: "Houve um problema com seu pedido {{error}}"
       issued: Emitido
       main_application_label: "Aplicação principal URL *"
       name_label: "Nome *"

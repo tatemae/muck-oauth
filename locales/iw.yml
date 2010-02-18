@@ -13,6 +13,7 @@ iw:
       back: חזרה
       back_label: חזרה
       callback_label: "התקשרות כתובת *"
+      connect_to_account_title: "התחבר לחשבון שלך {{service}}"
       consume_key: "הצרכן מפתח:"
       consume_secret: "הצרכן החשאי:"
       delete: למחוק
@@ -23,6 +24,7 @@ iw:
       edit: עריכה
       edit_application: "עריכת הבקשה שלך"
       edit_label: עריכה
+      http_result_error: "היתה בעיה עם {{error}} בקשתך"
       issued: המונפק
       main_application_label: "ראשי Application כתובת האתר *"
       name_label: "שם *"

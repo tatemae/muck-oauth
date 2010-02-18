@@ -13,6 +13,7 @@ el:
       back: Πίσω
       back_label: Πίσω
       callback_label: "Callback URL *"
+      connect_to_account_title: "Συνδεθείτε με {{service}} λογαριασμό σας"
       consume_key: "Καταναλωτών Key:"
       consume_secret: "Καταναλωτών Secret:"
       delete: Διαγράφω
@@ -23,6 +24,7 @@ el:
       edit: Επεξεργασία
       edit_application: "Επεξεργασία αίτησή σας"
       edit_label: Επεξεργασία
+      http_result_error: "Υπήρξε ένα πρόβλημα με {{error}} το αίτημά σας"
       issued: Δημοσιεύτηκε
       main_application_label: "Κύρια Εφαρμογή URL *"
       name_label: "Όνομα *"

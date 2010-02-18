@@ -8,11 +8,12 @@ zh-TW:
       are_you_sure: 你確定嗎？
       authorize_access: 授權使用您的帳戶
       authorize_access_label: 授權訪問
-      authorize_access_question: "你想授權{{name}} ({{link}})訪問您的帳戶？"
+      authorize_access_question: "你想授權 {{name}} ({{link}})訪問您的帳戶？"
       authorize_url: 授權網址
       back: 後面
       back_label: 後面
-      callback_label: 回調網址*
+      callback_label: "回調網址 *"
+      connect_to_account_title: "連接到您的{{service}}帳戶"
       consume_key: 消費者的關鍵：
       consume_secret: 消費者的秘密：
       delete: 刪除
@@ -23,6 +24,7 @@ zh-TW:
       edit: 編輯
       edit_application: 編輯您的應用程序
       edit_label: 編輯
+      http_result_error: "有一個問題，您的要求{{error}}"
       issued: 分
       main_application_label: "主要應用程序的URL *"
       name_label: 姓名*
@@ -49,4 +51,4 @@ zh-TW:
       you_are_currently_not_connected_to_any_external_services: 您目前尚未連接到任何外部服務。
       you_can_connect_to_the_following_services: 您可以連接到以下服務：
       you_have_the_following_client_applications_registered: 您有以下客戶端應用程序的註冊：
-      you_must_register_your_web_application: 您必須註冊您的Web應用程序，才能夠OAuth要求這項服務
+      you_must_register_your_web_application: "您必須註冊您的Web應用程序，才能夠 OAuth要求這項服務"

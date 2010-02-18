@@ -13,6 +13,7 @@ pl:
       back: "Z powrotem"
       back_label: "Z powrotem"
       callback_label: "Callback URL *"
+      connect_to_account_title: "Połącz się z {{service}} konto"
       consume_key: "Konsumentów kluczowe:"
       consume_secret: "Konsumentów Secret:"
       delete: Usunąć
@@ -23,6 +24,7 @@ pl:
       edit: Edycja
       edit_application: "Edycja aplikacji"
       edit_label: Edycja
+      http_result_error: "Nie było problemu z {{error}} wniosek"
       issued: Wydawane
       main_application_label: "Głównym zastosowaniem URL *"
       name_label: "Imię i nazwisko *"

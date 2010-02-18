@@ -13,6 +13,7 @@ da:
       back: Tilbage
       back_label: Tilbage
       callback_label: "Callback URL *"
+      connect_to_account_title: "Tilslut til din {{service}} konto"
       consume_key: "Forbruger Key:"
       consume_secret: "Forbruger Secret:"
       delete: Slet
@@ -23,6 +24,7 @@ da:
       edit: Rediger
       edit_application: "Rediger din ansøgning"
       edit_label: Rediger
+      http_result_error: "Der var et problem med din anmodning {{error}}"
       issued: Udstedt
       main_application_label: "Main Application URL *"
       name_label: "Navn *"

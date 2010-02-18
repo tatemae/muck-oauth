@@ -13,6 +13,7 @@ vi:
       back: "Quay lại"
       back_label: "Quay lại"
       callback_label: "Callback URL *"
+      connect_to_account_title: "Kết nối đến tài khoản của bạn {{service}}"
       consume_key: "Người tiêu dùng chính:"
       consume_secret: "Bí mật của người tiêu dùng:"
       delete: Xoá
@@ -23,6 +24,7 @@ vi:
       edit: "Chỉnh sửa"
       edit_application: "Hiệu ứng dụng của bạn"
       edit_label: "Chỉnh sửa"
+      http_result_error: "Có vấn đề với yêu cầu của bạn {{error}}"
       issued: "Ngày cấp"
       main_application_label: "Ứng dụng chính URL *"
       name_label: "Tên *"

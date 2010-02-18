@@ -13,6 +13,7 @@ it:
       back: Indietro
       back_label: Indietro
       callback_label: "Richiamata URL *"
+      connect_to_account_title: "Connettersi al proprio account {{service}}"
       consume_key: "Fondamentali per i consumatori:"
       consume_secret: "Consumatori Secret:"
       delete: Eliminare
@@ -23,6 +24,7 @@ it:
       edit: Modifica
       edit_application: "Modifica la tua domanda"
       edit_label: Modifica
+      http_result_error: "C&#39;è stato un problema con il tuo {{error}} richiesta"
       issued: Rilasciato
       main_application_label: "Applicazione principale URL *"
       name_label: "Nome *"

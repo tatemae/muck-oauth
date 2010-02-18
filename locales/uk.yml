@@ -13,6 +13,7 @@ uk:
       back: Назад
       back_label: Назад
       callback_label: "Зворотній дзвінок URL *"
+      connect_to_account_title: "Підключитися до вашого рахунку {{service}}"
       consume_key: "Ключові споживача:"
       consume_secret: "Споживча Secret:"
       delete: Видалити
@@ -23,6 +24,7 @@ uk:
       edit: Змінити
       edit_application: "Змінити додаток"
       edit_label: Змінити
+      http_result_error: "Був проблема з проханням {{error}}"
       issued: Випущено
       main_application_label: "Головне Застосування URL *"
       name_label: "Назва *"

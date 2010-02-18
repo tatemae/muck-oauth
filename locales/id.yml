@@ -13,6 +13,7 @@ id:
       back: Belakang
       back_label: Belakang
       callback_label: "Callback URL *"
+      connect_to_account_title: "Hubungkan ke account {{service}}"
       consume_key: "Konsumen Kunci:"
       consume_secret: "Konsumen Rahasia"
       delete: Menghapus
@@ -23,6 +24,7 @@ id:
       edit: Edit
       edit_application: "Edit aplikasi"
       edit_label: Edit
+      http_result_error: "Ada masalah dengan permintaan Anda {{error}}"
       issued: Issued
       main_application_label: "Aplikasi Utama URL *"
       name_label: "Nama *"

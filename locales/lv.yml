@@ -13,6 +13,7 @@ lv:
       back: Atpakaļ
       back_label: Atpakaļ
       callback_label: "Atzvans URL *"
+      connect_to_account_title: "Savienojumu ar savu {{service}} kontu"
       consume_key: "Patērētāju Key:"
       consume_secret: "Patērētāju Secret:"
       delete: Dzēst
@@ -23,6 +24,7 @@ lv:
       edit: Rediģēt
       edit_application: "Rediģēt savu pieteikumu"
       edit_label: Rediģēt
+      http_result_error: "Tur bija ar jūsu pieprasījumu {{error}} problēmu"
       issued: Izdots
       main_application_label: "Main Application URL *"
       name_label: "Vārds *"

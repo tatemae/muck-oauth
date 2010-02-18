@@ -13,6 +13,7 @@ sq:
       back: Pas
       back_label: Pas
       callback_label: "Callback URL *"
+      connect_to_account_title: "Lidhja me llogarinë tuaj {{service}}"
       consume_key: "Consumer kyçe:"
       consume_secret: "Konsumatorit Sekret:"
       delete: Fshij
@@ -23,6 +24,7 @@ sq:
       edit: Edit
       edit_application: "Redakto kërkesën tuaj"
       edit_label: Edit
+      http_result_error: "Kishte një problem me {{error}} tuaj kërkesë"
       issued: Lëshuar
       main_application_label: "Kryesore Aplikimi URL *"
       name_label: "Emri *"

@@ -13,6 +13,7 @@ ja:
       back: 後ろの
       back_label: 後ろの
       callback_label: "コールバックURL *"
+      connect_to_account_title: "接続し{{service}}アカウントに"
       consume_key: 消費者キー：
       consume_secret: 消費者の秘密：
       delete: 削除する
@@ -23,6 +24,7 @@ ja:
       edit: "[編集]"
       edit_application: "[編集]アプリケーション"
       edit_label: "[編集]"
+      http_result_error: "あなたの要求を{{error}}に問題がありました"
       issued: 発行
       main_application_label: "メインアプリケーションのURL *"
       name_label: お名前*

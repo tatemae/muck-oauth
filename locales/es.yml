@@ -13,6 +13,7 @@ es:
       back: Espalda
       back_label: Espalda
       callback_label: "URL de la llamada *"
+      connect_to_account_title: "Conectarse a su cuenta {{service}}"
       consume_key: "Consumidor clave:"
       consume_secret: "Secreto de los consumidores:"
       delete: Borrar
@@ -23,6 +24,7 @@ es:
       edit: Editar
       edit_application: "Editar su aplicación"
       edit_label: Editar
+      http_result_error: "Hubo un problema con su solicitud {{error}}"
       issued: Otorgada
       main_application_label: "Aplicación principal URL *"
       name_label: "Nombre *"

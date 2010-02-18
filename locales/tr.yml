@@ -13,6 +13,7 @@ tr:
       back: Arka
       back_label: Arka
       callback_label: "Geri arama URL *"
+      connect_to_account_title: "Bağlayın {{service}} hesabınıza"
       consume_key: "Tüketici Anahtar:"
       consume_secret: "Tüketici Gizli:"
       delete: Silmek
@@ -23,6 +24,7 @@ tr:
       edit: Değiştir
       edit_application: "Değiştir başvurunuzu"
       edit_label: Değiştir
+      http_result_error: "Orada isteğinizi {{error}} bir sorun vardı"
       issued: İhraç
       main_application_label: "Ana Uygulama URL *"
       name_label: "Adı *"

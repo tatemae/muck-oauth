@@ -13,6 +13,7 @@ ro:
       back: Înapoi
       back_label: Înapoi
       callback_label: "Sună înapoi URL *"
+      connect_to_account_title: "Conectaţi-vă la contul dvs. {{service}}"
       consume_key: "De consum cheie:"
       consume_secret: "De consum secret:"
       delete: Şterge
@@ -23,6 +24,7 @@ ro:
       edit: Editaţi
       edit_application: "Editare cererea dumneavoastră"
       edit_label: Editaţi
+      http_result_error: "Nu a fost o problemă cu {{error}} cererea dvs."
       issued: Emis
       main_application_label: "Main Application URL *"
       name_label: "Nume *"

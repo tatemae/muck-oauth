@@ -13,6 +13,7 @@ et:
       back: Tagasi
       back_label: Tagasi
       callback_label: "Tagasihelistamisteenus URL *"
+      connect_to_account_title: "Ühenda {{service}} konto"
       consume_key: "Tarbija Võti:"
       consume_secret: "Tarbija salajane:"
       delete: Kustutama
@@ -23,6 +24,7 @@ et:
       edit: Edit
       edit_application: "Muuda oma taotluse"
       edit_label: Edit
+      http_result_error: "Tekkis probleem oma taotluse {{error}}"
       issued: Emiteeritud
       main_application_label: "Main Application URL *"
       name_label: "Nimi *"

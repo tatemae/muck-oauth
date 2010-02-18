@@ -13,6 +13,7 @@ hi:
       back: पीछे
       back_label: पीछे
       callback_label: "कॉलबैक यूआरएल *"
+      connect_to_account_title: "कनेक्ट {{service}} अपने खाते में"
       consume_key: "उपभोक्ता कुंजी:"
       consume_secret: "उपभोक्ता गुप्त:"
       delete: मिटाना
@@ -23,6 +24,7 @@ hi:
       edit: "संपादित करें"
       edit_application: "संपादित करें आपके आवेदन"
       edit_label: "संपादित करें"
+      http_result_error: "वहाँ आपके अनुरोध {{error}} के साथ एक समस्या थी"
       issued: जारी
       main_application_label: "मुख्य अनुप्रयोग यूआरएल *"
       name_label: "नाम *"

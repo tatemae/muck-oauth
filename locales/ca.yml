@@ -8,11 +8,12 @@ ca:
       are_you_sure: "Estàs segur?"
       authorize_access: "Autoritzar l&#39;accés al vostre compte"
       authorize_access_label: "autoritzar l&#39;accés"
-      authorize_access_question: "T &#39;agradaria autoritzar ({{name}}) {{link}} per accedir al seu compte?"
+      authorize_access_question: "T&#39;agradaria autoritzar ({{name}}) {{link}} per accedir al seu compte?"
       authorize_url: "Autoritzar URL"
       back: Esquena
       back_label: Esquena
       callback_label: "URL de l&#39;anomenada *"
+      connect_to_account_title: "Connectar-se a la seva compte {{service}}"
       consume_key: "Consumidor clau:"
       consume_secret: "Secret dels consumidors:"
       delete: Esborrar
@@ -23,6 +24,7 @@ ca:
       edit: Edita
       edit_application: "Edita la seva aplicació"
       edit_label: Edita
+      http_result_error: "Hi va haver un problema amb la seva sol licitud {{error}}"
       issued: Atorgada
       main_application_label: "Aplicació principal URL *"
       name_label: "Nom *"

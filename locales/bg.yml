@@ -13,6 +13,7 @@ bg:
       back: Отзад
       back_label: Отзад
       callback_label: "Callback URL *"
+      connect_to_account_title: "Свържете се към вашия {{service}} сметка"
       consume_key: "Ключ на потребителите:"
       consume_secret: "Тайната на потребителите:"
       delete: Изтривам
@@ -23,6 +24,7 @@ bg:
       edit: Редактиране
       edit_application: "Редактиране на вашата кандидатура"
       edit_label: Редактиране
+      http_result_error: "Имаше проблем с искане {{error}}"
       issued: Издава
       main_application_label: "Основното приложение URL *"
       name_label: "Име *"

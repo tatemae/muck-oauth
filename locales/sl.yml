@@ -13,6 +13,7 @@ sl:
       back: Nazaj
       back_label: Nazaj
       callback_label: "Callback URL *"
+      connect_to_account_title: "Povežite se {{service}} račun"
       consume_key: "Consumer Key:"
       consume_secret: "Consumer Secret:"
       delete: Izbrisati
@@ -23,6 +24,7 @@ sl:
       edit: Edit
       edit_application: "Uredi prijavo"
       edit_label: Edit
+      http_result_error: "Prišlo je do težave z vašo zahtevo {{error}}"
       issued: Izdan
       main_application_label: "Main Application URL *"
       name_label: "Ime *"

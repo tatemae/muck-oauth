@@ -13,6 +13,7 @@ fr:
       back: Retour
       back_label: Retour
       callback_label: "URL de rappel *"
+      connect_to_account_title: "Connectez-vous à votre compte {{service}}"
       consume_key: "Clés pour le consommateur:"
       consume_secret: "Secret des consommateurs:"
       delete: Supprimer
@@ -23,6 +24,7 @@ fr:
       edit: Modifier
       edit_application: "Modifier votre demande"
       edit_label: Modifier
+      http_result_error: "Il y avait un problème avec votre demande {{error}}"
       issued: Délivré
       main_application_label: "Application principale URL *"
       name_label: "Nom *"

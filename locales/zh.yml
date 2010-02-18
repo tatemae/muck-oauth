@@ -13,6 +13,7 @@ zh:
       back: 后面
       back_label: 后面
       callback_label: 回调网址*
+      connect_to_account_title: "连接到您的{{service}}帐户"
       consume_key: 消费者的关键：
       consume_secret: 消费者的秘密：
       delete: 删除
@@ -23,6 +24,7 @@ zh:
       edit: 编辑
       edit_application: 编辑您的应用程序
       edit_label: 编辑
+      http_result_error: "有一个问题，您的要求{{error}}"
       issued: 分
       main_application_label: "主要应用程序的URL *"
       name_label: 姓名*

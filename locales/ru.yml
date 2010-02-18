@@ -13,6 +13,7 @@ ru:
       back: Назад
       back_label: Назад
       callback_label: "Обратный звонок URL *"
+      connect_to_account_title: "Подключиться к вашему счету {{service}}"
       consume_key: "Ключевые потребителя:"
       consume_secret: "Потребительская Secret:"
       delete: Удалить
@@ -23,6 +24,7 @@ ru:
       edit: Изменить
       edit_application: "Изменить приложение"
       edit_label: Изменить
+      http_result_error: "Был проблема с просьбой {{error}}"
       issued: Выпущено
       main_application_label: "Главное Применение URL *"
       name_label: "Имя *"

@@ -13,6 +13,7 @@ sk:
       back: Späť
       back_label: Späť
       callback_label: "Spätné volanie URL *"
+      connect_to_account_title: "Pripojte sa k svojmu účtu {{service}}"
       consume_key: "Spotrebiteľské Kľúč:"
       consume_secret: "Spotrebiteľské Secret:"
       delete: Odstrániť
@@ -23,6 +24,7 @@ sk:
       edit: Upraviť
       edit_application: "Upraviť aplikácii"
       edit_label: Upraviť
+      http_result_error: "Došlo k problému so svojou požiadavkou {{error}}"
       issued: Vydaných
       main_application_label: "Hlavné aplikácií URL *"
       name_label: "Meno *"

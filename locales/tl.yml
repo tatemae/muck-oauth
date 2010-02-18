@@ -13,6 +13,7 @@ tl:
       back: Balik
       back_label: Balik
       callback_label: "Callback URL *"
+      connect_to_account_title: "Ikonekta ang iyong {{service}} account"
       consume_key: "Consumer Key:"
       consume_secret: "Consumer Secret:"
       delete: Tanggalin
@@ -23,6 +24,7 @@ tl:
       edit: I-edit
       edit_application: "I-edit ang inyong aplikasyon"
       edit_label: I-edit
+      http_result_error: "Nagkaroon ng problema sa iyong kahilingan {{error}}"
       issued: "Na inisyu"
       main_application_label: "Main Application URL *"
       name_label: "Pangalan *"

@@ -3,50 +3,52 @@ th:
   muck: 
     oauth: 
       access_token_url: "URL Access Token"
-      application: การสมัคร
+      application: "การ สมัคร"
       application_developers: "พัฒนา Application"
-      are_you_sure: คุณแน่ใจหรือไม่
-      authorize_access: อนุญาตเข้าสู่บัญชีของคุณ
-      authorize_access_label: อนุญาตให้เข้า
-      authorize_access_question: "คุณต้องการอนุญาต ({{name}}) {{link}} เพื่อเข้าถึงบัญชีของคุณหรือไม่"
+      are_you_sure: "คุณ แน่ใจ หรือ ไม่"
+      authorize_access: "อนุญาต เข้า สู่ บัญชี ของ คุณ"
+      authorize_access_label: "อนุญาต ให้ เข้า"
+      authorize_access_question: "คุณ ต้องการ อนุญาต ({{name}}) {{link}} เพื่อ เข้าถึง บัญชี ของ คุณ หรือ ไม่"
       authorize_url: "URL อนุญาต"
       back: หลัง
       back_label: หลัง
       callback_label: "กลับ URL *"
+      connect_to_account_title: "เชื่อม ต่อ กับ บัญชี {{service}} ของ คุณ"
       consume_key: "คีย์ Consumer:"
-      consume_secret: "ความลับของผู้บริโภค:"
+      consume_secret: "ความ ลับ ของ ผู้ บริโภค:"
       delete: ลบ
-      destroyed_successfully: ทำลายลงทะเบียนสมัครลูกค้า
+      destroyed_successfully: "ทำลาย ลง ทะเบียน สมัคร ลูกค้า"
       disconnect: ปลด
-      disconnect_or_reconnect: "{{disconnect}} หรือ {{reconnect}} หากคุณประสบปัญหา."
-      do_you_have_an_application_to_register: "คุณมีโปรแกรมที่คุณต้องการลงทะเบียนเพื่อใช้กับเราโดยใช้มาตรฐาน {{link}}?"
+      disconnect_or_reconnect: "{{disconnect}} หรือ {{reconnect}} หาก คุณ ประสบ ปัญหา."
+      do_you_have_an_application_to_register: "คุณ มี โปรแกรม ที่ คุณ ต้องการ ลง ทะเบียน เพื่อ ใช้ กับ เรา โดย ใช้ มาตรฐาน {{link}}?"
       edit: Edit
-      edit_application: แก้ไขใบสมัครของคุณ
+      edit_application: "แก้ไข ใบ สมัคร ของ คุณ"
       edit_label: Edit
-      issued: ที่ออก
+      http_result_error: "มี ปัญหา กับ {{error}} คำขอ ของ คุณ คือ"
+      issued: "ที่ ออก"
       main_application_label: "Main Application URL *"
       name_label: "ชื่อ *"
       oauth_client_applications: "โปรแกรม OAuth ลูกค้า"
       or: หรือ
-      reconnect: เชื่อมต่อ
-      register: ลงทะเบียน
-      register_a_new_application: ลงทะเบียนสมัครใหม่
-      register_your_application: ลงทะเบียนสมัคร
-      registered_successfully: ลงทะเบียนข้อมูลสำเร็จ
-      request_allowed: คุณได้รับอนุญาตคำขอนี้
-      request_disallowed: "คุณมี disallowed คำขอนี้"
+      reconnect: "เชื่อม ต่อ"
+      register: "ลง ทะเบียน"
+      register_a_new_application: "ลง ทะเบียน สมัคร ใหม่"
+      register_your_application: "ลง ทะเบียน สมัคร"
+      registered_successfully: "ลง ทะเบียน ข้อมูล สำเร็จ"
+      request_allowed: "คุณ ได้ รับ อนุญาต คำขอ นี้"
+      request_disallowed: "คุณ มี disallowed คำขอ นี้"
       request_token_url: "URL ขอ Token"
       revoke: ยกเลิก!
-      services: การบริการ
+      services: "การ บริการ"
       show_label: แสดง
       support_url_label: "URL Support"
-      tokens_issued: สัญญาณต่อไปนี้ได้รับการออกไปใช้งานในชื่อของคุณ
-      updated_successfully: อัปเดทข้อมูลลูกค้าสำเร็จ
-      we_support_hmac_sha: "เราสนับสนุน hmac-sha1 (แนะนำ) เป็นข้อความล้วนในโหมด SSL."
-      wrong_id: "สมัคร id ไม่ถูกต้อง"
-      you_are_already_connected_to: "คุณเชื่อมต่อแล้วให้ {{service}}"
-      you_are_connected_to_the_following_services: คุณเชื่อมต่อกับบริการดังต่อไปนี้
-      you_are_currently_not_connected_to_any_external_services: คุณยังไม่เชื่อมต่อไปยังบริการภายนอก.
-      you_can_connect_to_the_following_services: คุณสามารถเชื่อมต่อกับบริการดังต่อไปนี้
-      you_have_the_following_client_applications_registered: "คุณมีโปรแกรมต่อไปนี้ลูกค้าที่ลงทะเบียน:"
-      you_must_register_your_web_application: "คุณต้องลงทะเบียนสมัครเว็บของคุณก่อนที่จะสามารถขอ OAuth ให้บริการนี้"
+      tokens_issued: "สัญญาณ ต่อ ไป นี้ ได้ รับ การ ออก ไป ใช้ งาน ใน ชื่อ ของ คุณ"
+      updated_successfully: "อัป เดท ข้อมูล ลูกค้า สำเร็จ"
+      we_support_hmac_sha: "เรา สนับสนุน hmac-sha1 (แนะนำ) เป็น ข้อความ ล้วน ใน โหมด SSL."
+      wrong_id: "สมัคร id ไม่ ถูก ต้อง"
+      you_are_already_connected_to: "คุณ เชื่อม ต่อ แล้ว ให้ {{service}}"
+      you_are_connected_to_the_following_services: "คุณ เชื่อม ต่อ กับ บริการ ดัง ต่อ ไป นี้"
+      you_are_currently_not_connected_to_any_external_services: "คุณ ยัง ไม่ เชื่อม ต่อ ไป ยัง บริการ ภายนอก."
+      you_can_connect_to_the_following_services: "คุณ สามารถ เชื่อม ต่อ กับ บริการ ดัง ต่อ ไป นี้"
+      you_have_the_following_client_applications_registered: "คุณ มี โปรแกรม ต่อ ไป นี้ ลูกค้า ที่ ลง ทะเบียน:"
+      you_must_register_your_web_application: "คุณ ต้อง ลง ทะเบียน สมัคร เว็บ ของ คุณ ก่อน ที่ จะ สามารถ ขอ OAuth ให้ บริการ นี้"

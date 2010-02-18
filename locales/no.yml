@@ -14,6 +14,7 @@
       back: Tilbake
       back_label: Tilbake
       callback_label: "Tilbakeringingswebadresse *"
+      connect_to_account_title: "Koble til {{service}} konto"
       consume_key: "Forbruker Nøkkel:"
       consume_secret: "Forbruker Secret:"
       delete: Slette
@@ -24,6 +25,7 @@
       edit: Rediger
       edit_application: "Rediger din søknad"
       edit_label: Rediger
+      http_result_error: "Det oppstod et problem med din forespørsel {{error}}"
       issued: Utstedt
       main_application_label: "Main Application URL *"
       name_label: "Navn *"

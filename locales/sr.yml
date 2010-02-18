@@ -13,6 +13,7 @@ sr:
       back: Назад
       back_label: Назад
       callback_label: "Повратни УРЛ адреса *"
+      connect_to_account_title: "Повежите се на свој рачун {{service}}"
       consume_key: "Кључне потрошача:"
       consume_secret: "Тајна потрошача:"
       delete: Избрисати
@@ -23,6 +24,7 @@ sr:
       edit: Измени
       edit_application: "Измените вашу пријаву"
       edit_label: Измени
+      http_result_error: "Било је проблема са свом захтеву {{error}}"
       issued: Издадени
       main_application_label: "Главни Захтев УРЛ-*"
       name_label: "Име *"

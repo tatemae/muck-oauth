@@ -13,6 +13,7 @@ cs:
       back: Zpět
       back_label: Zpět
       callback_label: "Zpětné volání URL *"
+      connect_to_account_title: "Připojte se ke svému účtu {{service}}"
       consume_key: "Spotřebitelské Klíč:"
       consume_secret: "Spotřebitelské Secret:"
       delete: Odstranit
@@ -23,6 +24,7 @@ cs:
       edit: Upravit
       edit_application: "Upravit aplikaci"
       edit_label: Upravit
+      http_result_error: "Došlo k problému se svým požadavkem {{error}}"
       issued: Vydaných
       main_application_label: "Hlavní aplikací URL *"
       name_label: "Jméno *"

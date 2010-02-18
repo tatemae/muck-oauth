@@ -13,6 +13,7 @@ fi:
       back: Takaisin
       back_label: Takaisin
       callback_label: "Vastakutsun URL-osoite *"
+      connect_to_account_title: "Muodosta yhteys {{service}} tili"
       consume_key: "Kuluttajan Key:"
       consume_secret: "Kuluttajan Secret:"
       delete: Poistaa
@@ -23,6 +24,7 @@ fi:
       edit: Muokkaus
       edit_application: "Muokkaa hakemus"
       edit_label: Muokkaus
+      http_result_error: "Oli ongelma pyyntösi {{error}}"
       issued: Antoi
       main_application_label: "Main application URL *"
       name_label: "Nimi *"

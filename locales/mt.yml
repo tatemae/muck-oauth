@@ -13,6 +13,7 @@ mt:
       back: Lura
       back_label: Lura
       callback_label: "Callback URL *"
+      connect_to_account_title: "Connect fil-kont tiegħek {{service}}"
       consume_key: "Konsumatur ewlenin:"
       consume_secret: "Konsumatur Secret:"
       delete: Ħassar
@@ -23,6 +24,7 @@ mt:
       edit: Edit
       edit_application: "Edit-applikazzjoni tiegħek"
       edit_label: Edit
+      http_result_error: "Kien hemm problema bil-{{error}}-talba tiegħek"
       issued: Maħruġ
       main_application_label: "Main Applikazzjoni URL *"
       name_label: "Isem *"

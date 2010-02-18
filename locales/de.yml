@@ -13,6 +13,7 @@ de:
       back: Zurück
       back_label: Zurück
       callback_label: "Rückruf-URL *"
+      connect_to_account_title: "Eine Verbindung zu Ihrem Konto {{service}}"
       consume_key: "Consumer Key:"
       consume_secret: "Consumer Secret:"
       delete: Löschen
@@ -23,6 +24,7 @@ de:
       edit: Edit
       edit_application: "Bearbeiten Sie Ihre Anwendung"
       edit_label: Edit
+      http_result_error: "Es gab ein Problem mit Ihrer Anfrage {{error}}"
       issued: Ausgestellt
       main_application_label: "Hauptanwendung URL *"
       name_label: "Name *"

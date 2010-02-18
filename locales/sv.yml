@@ -13,6 +13,7 @@ sv:
       back: Tillbaka
       back_label: Tillbaka
       callback_label: "Callback URL *"
+      connect_to_account_title: "Anslut till ditt {{service}} konto"
       consume_key: "Consumer Key:"
       consume_secret: "Consumer Secret:"
       delete: "Ta bort"
@@ -23,6 +24,7 @@ sv:
       edit: Redigera
       edit_application: "Redigera din ansökan"
       edit_label: Redigera
+      http_result_error: "Det uppstod ett problem med din förfrågan {{error}}"
       issued: Emitterade
       main_application_label: "Huvudsaken URL *"
       name_label: "Namn *"

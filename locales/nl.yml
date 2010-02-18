@@ -13,6 +13,7 @@ nl:
       back: Terug
       back_label: Terug
       callback_label: "Callback URL *"
+      connect_to_account_title: "Aansluiten op uw {{service}} account"
       consume_key: "Consument Sleutel:"
       consume_secret: "Consument Secret:"
       delete: Wissen
@@ -23,6 +24,7 @@ nl:
       edit: Edit
       edit_application: "Wijzig uw aanvraag"
       edit_label: Edit
+      http_result_error: "Er was een probleem met uw verzoek {{error}}"
       issued: Afgegeven
       main_application_label: "Algemene Application URL *"
       name_label: "Naam *"

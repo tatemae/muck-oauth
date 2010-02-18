@@ -13,6 +13,7 @@ lt:
       back: Atgal
       back_label: Atgal
       callback_label: "Callback adresas *"
+      connect_to_account_title: "Prisijunkite prie savo paskyros {{service}}"
       consume_key: "Vartotojų Raktažodžiai:"
       consume_secret: "Vartotojų Slaptas:"
       delete: Ištrinti
@@ -23,6 +24,7 @@ lt:
       edit: Redaguoti
       edit_application: "Keisti savo paraišką"
       edit_label: Redaguoti
+      http_result_error: "Ten buvo su savo prašymu {{error}} problema"
       issued: Išleistos
       main_application_label: "Main application adresas *"
       name_label: "Vardas *"
