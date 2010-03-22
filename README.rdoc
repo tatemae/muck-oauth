@@ -14,6 +14,41 @@ Add the following to environment.rb
 
 Add the following to your user model:
   acts_as_muck_oauth_user
+
+== Configuration
+Add the following to global_config.yml. Be sure to get keys from each service that you want to interact with.
+
+  # Oauth
+  # Twitter api access: http://www.twitter.com/apps 
+  twitter_oauth_key: ''
+  twitter_oauth_secret: ''
+
+  # Google api access: http://code.google.com/apis/accounts/docs/RegistrationForWebAppsAuto.html#register
+  google_oauth_key: ""
+  google_oauth_secret: ""
+
+  # Yahoo api access: http://developer.yahoo.com/flickr/
+  yahoo_oauth_key: ""
+  yahoo_oauth_secret: ""
+
+  # Flick api access: http://www.flickr.com/services/apps/create/apply
+  # flickr_oauth_key: 
+  # flickr_oauth_secret: 
+  
+  # Linked In api access: https://www.linkedin.com/secure/developer
+  # linkedin_oauth_key: ""
+  # linkedin_oauth_secret: ""
+  linkedin_oauth_key: ""
+  linkedin_oauth_secret: ""
+
+  # Friendfeed api access: https://friendfeed.com/account/login?next=%2Fapi%2Fregister
+  # Production
+  friendfeed_oauth_key: ''
+  friendfeed_oauth_secret: ''  
+  # Test
+  friendfeed_oauth_key: ''
+  friendfeed_oauth_secret: ''
+
   
 == Usage
 Add configuration for services to:
@@ -55,5 +90,10 @@ None yet
 
 Flickr
 None yet
+
+== Tips and Help
+If you get an error like this:
+  uninitialized constant User::TwitterToken
+it means you need to setup your global_config.yml with the values specified above.
 
 Copyright (c) 2009 Tatemae.com. See LICENSE for details.
