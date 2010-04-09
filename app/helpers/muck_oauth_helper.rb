@@ -2,12 +2,35 @@ module MuckOauthHelper
   
   # Generates a javascript array of emails from gmail.  Values will be
   # put into a variable named 'gmail_contacts'
-  def gmail_contacts_for_auto_complete(user)
+  def gmail_contacts_for_auto_complete(user, ignore_cache = false)
     return unless user.google
-    contacts = user.google.portable_contacts.all.collect do |contact|
+    contacts = gmail_contacts(user, ignore_cache).collect do |contact|
       contact["emails"].collect{ |email| "'#{email['value']}'" }
     end.flatten
     "var gmail_contacts = [#{contacts.join(',')}];"
+  end
+  
+  def gmail_contacts_as_array(user, ignore_cache = false)
+    if user.google
+      contacts = []
+      gmail_contacts(user, ignore_cache).each do |contact|
+        name = contact['name']['formatted'] rescue ''
+        contact["emails"].each do |email|
+          email_record = [name, email['value']]
+          contacts << email_record unless contacts.include?(email_record)
+        end
+      end
+      contacts
+    end
+  end
+  
+  def gmail_contacts(user, ignore_cache = false)
+    if @user_gmail_contacts && @user_gmail_contacts[user] && !ignore_cache
+      @user_gmail_contacts[user]
+    else
+      @user_gmail_contacts ||= {}
+      @user_gmail_contacts[user] = user.google.portable_contacts.all
+    end
   end
   
   # Renders fancybox javascript for oauth services

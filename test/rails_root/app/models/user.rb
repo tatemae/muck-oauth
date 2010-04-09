@@ -3,10 +3,6 @@ class User < ActiveRecord::Base
     c.crypto_provider = Authlogic::CryptoProviders::BCrypt
   end
   acts_as_muck_user
-  
-  has_many :client_applications
-  has_many :tokens, :class_name => "OauthToken", :order => "authorized_at desc", :include => [:client_application]
-  
-  has_one  :twitter_token, :class_name => "TwitterToken", :dependent => :destroy
+  acts_as_muck_oauth_user
   
 end
