@@ -25,6 +25,7 @@ begin
     gem.add_dependency "overlord"
     gem.add_dependency "muck-engine"
     gem.add_dependency "muck-users"
+    gem.add_development_dependency "babelphish"
     gem.add_development_dependency "shoulda"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

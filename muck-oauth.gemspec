@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{muck-oauth}
-  s.version = "0.1.11"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball"]
-  s.date = %q{2010-04-08}
+  s.date = %q{2010-04-28}
   s.description = %q{A simple wrapper for the oauth and oauth-plugin gems so that it is faster to include oauth in muck based applications.}
   s.email = %q{justin@tatemae.com}
   s.extra_rdoc_files = [
@@ -2169,6 +2169,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<overlord>, [">= 0"])
       s.add_runtime_dependency(%q<muck-engine>, [">= 0"])
       s.add_runtime_dependency(%q<muck-users>, [">= 0"])
+      s.add_development_dependency(%q<babelphish>, [">= 0"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
     else
       s.add_dependency(%q<oauth>, [">= 0"])
@@ -2181,6 +2182,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<overlord>, [">= 0"])
       s.add_dependency(%q<muck-engine>, [">= 0"])
       s.add_dependency(%q<muck-users>, [">= 0"])
+      s.add_dependency(%q<babelphish>, [">= 0"])
       s.add_dependency(%q<shoulda>, [">= 0"])
     end
   else
@@ -2194,6 +2196,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<overlord>, [">= 0"])
     s.add_dependency(%q<muck-engine>, [">= 0"])
     s.add_dependency(%q<muck-users>, [">= 0"])
+    s.add_dependency(%q<babelphish>, [">= 0"])
     s.add_dependency(%q<shoulda>, [">= 0"])
   end
 end
