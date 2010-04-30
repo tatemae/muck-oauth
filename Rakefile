@@ -14,6 +14,7 @@ begin
     gem.description = %Q{A simple wrapper for the oauth and oauth-plugin gems so that it is faster to include oauth in muck based applications.}
     gem.email = "justin@tatemae.com"
     gem.homepage = "http://github.com/tatemae/muck-oauth"
+    gem.rubyforge_project = "muck-oauth"
     gem.authors = ["Justin Ball"]
     gem.add_dependency "oauth"
     gem.add_dependency "oauth-plugin"
