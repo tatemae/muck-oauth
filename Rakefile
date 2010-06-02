@@ -16,13 +16,13 @@ begin
     gem.homepage = "http://github.com/tatemae/muck-oauth"
     gem.rubyforge_project = "muck-oauth"
     gem.authors = ["Justin Ball"]
-    gem.add_dependency "oauth"
-    gem.add_dependency "oauth-plugin"
-    gem.add_dependency "twitter"
-    gem.add_dependency "portablecontacts"
+    gem.add_dependency "oauth", '>= 0.3.6'
+    gem.add_dependency "oauth-plugin", '~> 0.3.14'
+    gem.add_dependency "twitter", '~> 0.9.5'
+    gem.add_dependency "portablecontacts", '>= 0.1.0'
     gem.add_dependency "agree2"
     gem.add_dependency "fireeagle"
-    gem.add_dependency "linkedin"
+    gem.add_dependency "linkedin", '~> 0.1.2'
     gem.add_dependency "overlord"
     gem.add_dependency "muck-engine"
     gem.add_dependency "muck-users"
