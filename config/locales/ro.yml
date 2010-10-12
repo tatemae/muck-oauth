@@ -1,0 +1,54 @@
+--- 
+ro: 
+  muck: 
+    oauth: 
+      access_token_url: "De acces Token URL-ul"
+      application: Aplicaţie
+      application_developers: "Application Developers"
+      are_you_sure: "Esti sigur?"
+      authorize_access: "Autorizaţie de acces la contul dvs."
+      authorize_access_label: "Autorizaţie de acces"
+      authorize_access_question: "Doriţi să autorizeze (%{name}}) %{link} pentru a accesa contul dvs.?"
+      authorize_url: "Autorizaţie URL-ul"
+      back: Înapoi
+      back_label: Înapoi
+      callback_label: "Sună înapoi URL *"
+      connect_to_account_title: "Conectaţi-vă la contul dvs. %{service}"
+      consume_key: "De consum cheie:"
+      consume_secret: "De consum secret:"
+      delete: Şterge
+      destroyed_successfully: "A distrus înregistrarea cererii clientului"
+      disconnect: Deconectaţi
+      disconnect_or_reconnect: "%{disconnect}} Sau %{reconnect} dacă aţi confruntat cu o problemă."
+      do_you_have_an_application_to_register: "Nu aveţi o aplicaţie pe care doriţi să se înregistreze pentru a fi utilizate cu noi folosind standardul %{link}?"
+      edit: Editaţi
+      edit_application: "Editare cererea dumneavoastră"
+      edit_label: Editaţi
+      http_result_error: "Nu a fost o problemă cu %{error} cererea dvs."
+      issued: Emis
+      main_application_label: "Main Application URL *"
+      name_label: "Nume *"
+      oauth_client_applications: "OAuth aplicaţiile client"
+      or: sau
+      reconnect: Reconectarea
+      register: Registrul
+      register_a_new_application: "Inregistreaza o nouă cerere"
+      register_your_application: "Inregistreaza cererea dumneavoastră"
+      registered_successfully: "Înregistraţi informaţiile cu succes"
+      request_allowed: "Tu ai permis această cerere"
+      request_disallowed: "Aveti nepermis această cerere"
+      request_token_url: "Cerere de token URL-ul"
+      revoke: Revocaţi!
+      services: Services
+      show_label: Arăta
+      support_url_label: "URL-ul Support"
+      tokens_issued: "Jetoanele următoarele au fost emise pentru aplicaţii în numele dvs."
+      updated_successfully: "Actualizat la informaţiile clientului cu succes"
+      we_support_hmac_sha: "Noi sprijinim HMAC-SHA1 (recomandat), precum şi ca text simplu în modul ssl."
+      wrong_id: "Cerere Wrong id"
+      you_are_already_connected_to: "Sunteţi deja conectat la %{service}"
+      you_are_connected_to_the_following_services: "Sunteţi conectat la următoarele servicii:"
+      you_are_currently_not_connected_to_any_external_services: "Sunteţi în prezent nu sunt conectate la orice servicii externe."
+      you_can_connect_to_the_following_services: "Vă puteţi conecta la următoarele servicii:"
+      you_have_the_following_client_applications_registered: "Ai aplicaţiile client înregistrat următoarele:"
+      you_must_register_your_web_application: "Trebuie să înregistraţi cererea dvs. de web înainte de a putea face cereri de OAuth la acest serviciu"

@@ -1,0 +1,54 @@
+--- 
+gl: 
+  muck: 
+    oauth: 
+      access_token_url: "Token de acceso URL"
+      application: Aplicación
+      application_developers: "Application Developers"
+      are_you_sure: "Estás seguro?"
+      authorize_access: "Autorizar o acceso á súa conta"
+      authorize_access_label: "autorizar o acceso"
+      authorize_access_question: "Quere autorizar (%{name}}) %{link} para acceder a sua conta?"
+      authorize_url: "Autorizar URL"
+      back: Costas
+      back_label: Costas
+      callback_label: "Callback URL *"
+      connect_to_account_title: "Entra á túa conta %{service}"
+      consume_key: "Consumidor clave:"
+      consume_secret: "Consumidor segredo:"
+      delete: Borrar
+      destroyed_successfully: "Destruíu a solicitude de rexistro de cliente"
+      disconnect: Desactivar
+      disconnect_or_reconnect: "%{disconnect}} Ou %{reconnect} se tivo un problema."
+      do_you_have_an_application_to_register: "Ten unha aplicación que desexa rexistrar para o uso coa xente a usar o estándar %{link}?"
+      edit: Editar
+      edit_application: "Edita súa solicitude"
+      edit_label: Editar
+      http_result_error: "Houbo un problema coa súa solicitude %{error}"
+      issued: Emitido
+      main_application_label: "Aplicación principal URL *"
+      name_label: "Nome *"
+      oauth_client_applications: "Aplicacións OAuth Cliente"
+      or: ou
+      reconnect: Reconectar
+      register: Registre-se
+      register_a_new_application: "Register un novo aplicación"
+      register_your_application: "Cadastre súa solicitude"
+      registered_successfully: "Rexistrado información con éxito"
+      request_allowed: "Vostede ten permitido este pedido"
+      request_disallowed: "Ten rexeitado este pedido"
+      request_token_url: "Solicitude Token URL"
+      revoke: Revogar!
+      services: Servizos
+      show_label: Amosar
+      support_url_label: "Support URL"
+      tokens_issued: "Os símbolos seguintes foron emitidos para as aplicacións no seu nome"
+      updated_successfully: "Actualizada a información cliente con éxito"
+      we_support_hmac_sha: "Apoiamos hmac-sha1 (recomendado), así como texto simple en modo SSL."
+      wrong_id: "Aplicación incorrecta id"
+      you_are_already_connected_to: "Xa está conectado a %{service}"
+      you_are_connected_to_the_following_services: "Vostede está conectada cos seguintes servizos:"
+      you_are_currently_not_connected_to_any_external_services: "Vostede non está conectado a todos os servizos externos."
+      you_can_connect_to_the_following_services: "Podes conectar os seguintes servizos:"
+      you_have_the_following_client_applications_registered: "Tes as seguintes aplicacións de cliente rexistrado:"
+      you_must_register_your_web_application: "Ten que rexistrar seu aplicación web antes que poida facer solicitudes OAuth a este servizo"

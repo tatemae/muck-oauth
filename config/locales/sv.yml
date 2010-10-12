@@ -1,0 +1,54 @@
+--- 
+sv: 
+  muck: 
+    oauth: 
+      access_token_url: "Access Token URL"
+      application: Ansökan
+      application_developers: Applikationsutvecklare
+      are_you_sure: "Är du säker?"
+      authorize_access: "Tillåta åtkomst till ditt konto"
+      authorize_access_label: "tillåta åtkomst"
+      authorize_access_question: "Vill du tillåta %{name}} (%{link}) att komma åt ditt konto?"
+      authorize_url: "Auktorisera URL"
+      back: Tillbaka
+      back_label: Tillbaka
+      callback_label: "Callback URL *"
+      connect_to_account_title: "Anslut till ditt %{service} konto"
+      consume_key: "Consumer Key:"
+      consume_secret: "Consumer Secret:"
+      delete: "Ta bort"
+      destroyed_successfully: "Förstörda registrering klientprogrammet"
+      disconnect: Koppla
+      disconnect_or_reconnect: "%{disconnect}} Eller %{reconnect} om du upplevt problem."
+      do_you_have_an_application_to_register: "Har du ett program du vill registrera sig för användning med oss via %{link} standard?"
+      edit: Redigera
+      edit_application: "Redigera din ansökan"
+      edit_label: Redigera
+      http_result_error: "Det uppstod ett problem med din förfrågan %{error}"
+      issued: Emitterade
+      main_application_label: "Huvudsaken URL *"
+      name_label: "Namn *"
+      oauth_client_applications: "OAuth klientapplikationer"
+      or: eller
+      reconnect: Reconnect
+      register: Registrera
+      register_a_new_application: "Registrera en ny ansökan"
+      register_your_application: "Registrera din ansökan"
+      registered_successfully: "Registrerade information framgångsrikt"
+      request_allowed: "Du har gjort denna begäran"
+      request_disallowed: "Du har godkände inte denna begäran"
+      request_token_url: "Begär Token URL"
+      revoke: Återkalla!
+      services: Tjänster
+      show_label: Show
+      support_url_label: "Support URL"
+      tokens_issued: "Följande symboler har utfärdats till applikationer i ditt namn"
+      updated_successfully: "Uppdaterad kunden information framgångsrikt"
+      we_support_hmac_sha: "Vi stöder hmac-sha1 (rekommenderas) samt oformaterad text i SSL-läge."
+      wrong_id: "Felaktig tillämpning id"
+      you_are_already_connected_to: "Du redan är ansluten till %{service}"
+      you_are_connected_to_the_following_services: "Du är ansluten till följande tjänster:"
+      you_are_currently_not_connected_to_any_external_services: "Du är inte ansluten till något externa tjänster."
+      you_can_connect_to_the_following_services: "Du kan ansluta till följande tjänster:"
+      you_have_the_following_client_applications_registered: "Du har följande klienten registrerade program:"
+      you_must_register_your_web_application: "Du måste registrera din webbapplikation innan den kan göra OAuth begäran till denna tjänst"

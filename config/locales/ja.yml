@@ -1,0 +1,54 @@
+--- 
+ja: 
+  muck: 
+    oauth: 
+      access_token_url: アクセストークンのURL
+      application: 応募
+      application_developers: アプリケーション開発者
+      are_you_sure: よろしいですか？
+      authorize_access: お客様のアカウントに認可へのアクセス
+      authorize_access_label: アクセスを許可する
+      authorize_access_question: "あなたのアカウントにアクセスする%{name}} (%{link})を承認するか？"
+      authorize_url: 承認のURL
+      back: 後ろの
+      back_label: 後ろの
+      callback_label: "コールバックURL *"
+      connect_to_account_title: "接続し%{service}アカウントに"
+      consume_key: 消費者キー：
+      consume_secret: 消費者の秘密：
+      delete: 削除する
+      destroyed_successfully: クライアントアプリケーションの登録破壊
+      disconnect: 切断
+      disconnect_or_reconnect: "%{disconnect}}または%{reconnect}場合は、この問題を経験した。"
+      do_you_have_an_application_to_register: "あなたが私たちを使用するため%{link}標準を使って登録したいアプリケーションをお持ちですか？"
+      edit: "[編集]"
+      edit_application: "[編集]アプリケーション"
+      edit_label: "[編集]"
+      http_result_error: "あなたの要求を%{error}に問題がありました"
+      issued: 発行
+      main_application_label: "メインアプリケーションのURL *"
+      name_label: お名前*
+      oauth_client_applications: OAuthのクライアントアプリケーション
+      or: または
+      reconnect: 再接続
+      register: 登録
+      register_a_new_application: 登録は、新しいアプリケーション
+      register_your_application: 登録アプリケーション
+      registered_successfully: 登録情報が正常に
+      request_allowed: あなたがこの要求を許可されている
+      request_disallowed: あなたがこの要求を許可して
+      request_token_url: 要求をトークンのURL
+      revoke: 取り消す！
+      services: サービス
+      show_label: 見せる
+      support_url_label: サポートURL
+      tokens_issued: 次のトークンの名前のアプリケーションに発行されている
+      updated_successfully: 正常にクライアント情報を更新
+      we_support_hmac_sha: 我々はhmacサポートのsha1（）と同様、SSLモードでテキストをお勧めします。
+      wrong_id: 間違ったアプリケーションID
+      you_are_already_connected_to: "既に%{service}に接続されている"
+      you_are_connected_to_the_following_services: 場合は、次のサービスに接続している：
+      you_are_currently_not_connected_to_any_external_services: 現在、任意の外部のサービスに接続されていません。
+      you_can_connect_to_the_following_services: 場合は、次のサービスに接続することができます：
+      you_have_the_following_client_applications_registered: 場合は、次のクライアントアプリケーションを登録している：
+      you_must_register_your_web_application: 前には、このサービスはOAuthを要求することができますあなたのWebアプリケーションに登録する必要があります

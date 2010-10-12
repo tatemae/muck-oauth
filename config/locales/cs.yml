@@ -1,0 +1,54 @@
+--- 
+cs: 
+  muck: 
+    oauth: 
+      access_token_url: "Přístup Token URL"
+      application: Aplikace
+      application_developers: "Application Developers"
+      are_you_sure: "Jste si jistá?"
+      authorize_access: "Povolit přístup k vašemu účtu"
+      authorize_access_label: "povolit přístup"
+      authorize_access_question: "Chtěli byste povolit %{name}} (%{link}) přístup k vašemu účtu?"
+      authorize_url: "Povolit URL"
+      back: Zpět
+      back_label: Zpět
+      callback_label: "Zpětné volání URL *"
+      connect_to_account_title: "Připojte se ke svému účtu %{service}"
+      consume_key: "Spotřebitelské Klíč:"
+      consume_secret: "Spotřebitelské Secret:"
+      delete: Odstranit
+      destroyed_successfully: "Zničil klientské aplikace zápis"
+      disconnect: Odpojit
+      disconnect_or_reconnect: "%{disconnect}} Nebo %{reconnect} pokud jste zkušený problém."
+      do_you_have_an_application_to_register: "Máte aplikaci, kterou chcete zaregistrovat pro použití s námi za použití standardních %{link}?"
+      edit: Upravit
+      edit_application: "Upravit aplikaci"
+      edit_label: Upravit
+      http_result_error: "Došlo k problému se svým požadavkem %{error}"
+      issued: Vydaných
+      main_application_label: "Hlavní aplikací URL *"
+      name_label: "Jméno *"
+      oauth_client_applications: "OAuth klientských aplikací"
+      or: nebo
+      reconnect: "Znovu připojit"
+      register: Registrovat
+      register_a_new_application: "Registrovat novou žádost"
+      register_your_application: "Zaregistrovat aplikace"
+      registered_successfully: "Registrovaných informací úspěšně"
+      request_allowed: "Máte možnost tuto žádost"
+      request_disallowed: "Máte nepovolené touto žádostí"
+      request_token_url: "Žádost Token URL"
+      revoke: Zrušit!
+      services: Služby
+      show_label: Ukázat
+      support_url_label: "Podpora URL"
+      tokens_issued: "Následující žetony, které byly vydány v žádosti své jméno"
+      updated_successfully: "Aktualizované informace o klientech, úspěšně"
+      we_support_hmac_sha: "Podporujeme HMAC-SHA1 (doporučeno), stejně jako prostý text v ssl módu."
+      wrong_id: "Nesprávná aplikace id"
+      you_are_already_connected_to: "Jste již připojeni k %{service}"
+      you_are_connected_to_the_following_services: "Jste připojeni na následující služby:"
+      you_are_currently_not_connected_to_any_external_services: "Momentálně nejste připojeni k žádné externí služby."
+      you_can_connect_to_the_following_services: "Můžete se připojit k následující služby:"
+      you_have_the_following_client_applications_registered: "Máte následující klient registrovaných žádostí:"
+      you_must_register_your_web_application: "Musíte se registrovat webové aplikace, než bude moci udělat OAuth žádostí o tuto službu"

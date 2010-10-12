@@ -1,0 +1,54 @@
+--- 
+ca: 
+  muck: 
+    oauth: 
+      access_token_url: "Testimoni d&#39;accés URL"
+      application: Sol.licitud
+      application_developers: "Desenvolupadors d&#39;aplicacions"
+      are_you_sure: "Estàs segur?"
+      authorize_access: "Autoritzar l&#39;accés al vostre compte"
+      authorize_access_label: "autoritzar l&#39;accés"
+      authorize_access_question: "T&#39;agradaria autoritzar (%{name}}) %{link} per accedir al seu compte?"
+      authorize_url: "Autoritzar URL"
+      back: Esquena
+      back_label: Esquena
+      callback_label: "URL de l&#39;anomenada *"
+      connect_to_account_title: "Connectar-se a la seva compte %{service}"
+      consume_key: "Consumidor clau:"
+      consume_secret: "Secret dels consumidors:"
+      delete: Esborrar
+      destroyed_successfully: "Destruir la sol.licitud de registre de client"
+      disconnect: Desconnectar
+      disconnect_or_reconnect: "%{disconnect}} O %{reconnect} si ha experimentat un problema."
+      do_you_have_an_application_to_register: "Té una aplicació que no està registrat per a l&#39;ús amb nosaltres utilitzant l&#39;estàndard %{link}?"
+      edit: Edita
+      edit_application: "Edita la seva aplicació"
+      edit_label: Edita
+      http_result_error: "Hi va haver un problema amb la seva sol licitud %{error}"
+      issued: Atorgada
+      main_application_label: "Aplicació principal URL *"
+      name_label: "Nom *"
+      oauth_client_applications: "OAuth aplicacions client"
+      or: o
+      reconnect: "Tornar a connectar"
+      register: Registre
+      register_a_new_application: "Registrar una nova sol licitud"
+      register_your_application: "Registrar la seva aplicació"
+      registered_successfully: "Registrat la informació amb èxit"
+      request_allowed: "Han permès que aquesta petició"
+      request_disallowed: "Ha rebutjat la sol licitud"
+      request_token_url: "Sol.licitud d&#39;token d&#39;URL"
+      revoke: Revocar!
+      services: Serveis
+      show_label: Mostra
+      support_url_label: "URL de Suport"
+      tokens_issued: "Les fitxes següents s&#39;han publicat a les sol licituds en el seu nom"
+      updated_successfully: "Actualització de la informació del client amb èxit"
+      we_support_hmac_sha: "Donem suport HMAC-SHA1 (recomanat), així com a text sense format en el mode SSL."
+      wrong_id: "Aplicació incorrecta ID"
+      you_are_already_connected_to: "Vostè ja està connectat a %{service}"
+      you_are_connected_to_the_following_services: "Està connectat als següents serveis:"
+      you_are_currently_not_connected_to_any_external_services: "Actualment no estàs connectat a qualsevol dels serveis externs."
+      you_can_connect_to_the_following_services: "Podeu connectar-se als següents serveis:"
+      you_have_the_following_client_applications_registered: "Vostè té les aplicacions de client després de registrats:"
+      you_must_register_your_web_application: "Vostè ha de registrar la seva aplicació web abans de que es pot fer peticions OAuth a aquest servei de"

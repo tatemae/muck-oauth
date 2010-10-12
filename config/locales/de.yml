@@ -1,0 +1,54 @@
+--- 
+de: 
+  muck: 
+    oauth: 
+      access_token_url: "Access Token URL"
+      application: Anwendung
+      application_developers: Anwendungsentwickler
+      are_you_sure: "Sind Sie sicher?"
+      authorize_access: "Autorisieren Zugriff auf Ihr Konto"
+      authorize_access_label: "autorisieren den Zugriff"
+      authorize_access_question: "Möchten Sie die %{name}} (%{link}) ermächtigen, auf Ihr Konto zugreifen?"
+      authorize_url: "Autorisieren URL"
+      back: Zurück
+      back_label: Zurück
+      callback_label: "Rückruf-URL *"
+      connect_to_account_title: "Eine Verbindung zu Ihrem Konto %{service}"
+      consume_key: "Consumer Key:"
+      consume_secret: "Consumer Secret:"
+      delete: Löschen
+      destroyed_successfully: "Zerstört die Client-Anwendung Registrierung"
+      disconnect: Trennen
+      disconnect_or_reconnect: "%{disconnect}} Oder %{reconnect}, wenn Sie ein Problem aufgetreten."
+      do_you_have_an_application_to_register: "Haben Sie eine Anwendung, die Sie möchten für den Einsatz bei uns registrieren mit dem %{link} Standard?"
+      edit: Edit
+      edit_application: "Bearbeiten Sie Ihre Anwendung"
+      edit_label: Edit
+      http_result_error: "Es gab ein Problem mit Ihrer Anfrage %{error}"
+      issued: Ausgestellt
+      main_application_label: "Hauptanwendung URL *"
+      name_label: "Name *"
+      oauth_client_applications: "OAuth Client-Anwendungen"
+      or: oder
+      reconnect: Schließen
+      register: Registrieren
+      register_a_new_application: "Registrieren Sie einen neuen Antrag"
+      register_your_application: "Registrieren Sie Ihre Anwendung"
+      registered_successfully: "Hier die Informationen erfolgreich"
+      request_allowed: "Sie haben diesen Antrag darf"
+      request_disallowed: "Sie haben diesen Antrag nicht zulässig"
+      request_token_url: "Request Token URL"
+      revoke: Widerrufen!
+      services: Services
+      show_label: Zeigen
+      support_url_label: "Support URL"
+      tokens_issued: "Die folgenden Marken wurden die Anträge auf Ihren Namen ausgestellt"
+      updated_successfully: "Aktualisierung der Client-Informationen erfolgreich"
+      we_support_hmac_sha: "Wir unterstützen HMAC-SHA1 (empfohlen) als auch als Nur-Text im SSL-Modus."
+      wrong_id: "Falsche Anwendung id"
+      you_are_already_connected_to: "Sie sind bereits angeschlossen, um %{service}"
+      you_are_connected_to_the_following_services: "Sie sind auf der folgenden Dienstleistungen in Verbindung stehen:"
+      you_are_currently_not_connected_to_any_external_services: "Sie sind derzeit nicht auf externe Dienstleistungen in Verbindung stehen."
+      you_can_connect_to_the_following_services: "Sie können eine Verbindung mit folgenden Leistungen:"
+      you_have_the_following_client_applications_registered: "Sie haben folgende Client-Anwendungen registriert:"
+      you_must_register_your_web_application: "Sie müssen Ihren Web-Anwendung registrieren, bevor es OAuth Zugriffe können, dass dieser Service"

@@ -1,0 +1,55 @@
+--- 
+? "no"
+: 
+  muck: 
+    oauth: 
+      access_token_url: "Access Token URL"
+      application: Søknad
+      application_developers: "Application Developers"
+      are_you_sure: "Er du sikker?"
+      authorize_access: "Godkjenne tilgang til kontoen din"
+      authorize_access_label: "godkjenne tilgang"
+      authorize_access_question: "Ønsker du å autorisere %{name}} (%{link}) tilgang til kontoen din?"
+      authorize_url: "Autorisere URL"
+      back: Tilbake
+      back_label: Tilbake
+      callback_label: "Tilbakeringingswebadresse *"
+      connect_to_account_title: "Koble til %{service} konto"
+      consume_key: "Forbruker Nøkkel:"
+      consume_secret: "Forbruker Secret:"
+      delete: Slette
+      destroyed_successfully: "Destroyed klientapplikasjonen registrering"
+      disconnect: Koble
+      disconnect_or_reconnect: "%{disconnect}} Eller %{reconnect} hvis du opplever et problem."
+      do_you_have_an_application_to_register: "Har du et program du ønsker å registrere seg for bruk med oss ved å bruke %{link} standard?"
+      edit: Rediger
+      edit_application: "Rediger din søknad"
+      edit_label: Rediger
+      http_result_error: "Det oppstod et problem med din forespørsel %{error}"
+      issued: Utstedt
+      main_application_label: "Main Application URL *"
+      name_label: "Navn *"
+      oauth_client_applications: "OAuth Client Applications"
+      or: eller
+      reconnect: Reconnect
+      register: Registrer
+      register_a_new_application: "Registrer en ny søknad"
+      register_your_application: "Registrer din søknad"
+      registered_successfully: "Registrerte informasjonen hell"
+      request_allowed: "Du har tillatt denne forespørselen"
+      request_disallowed: "Du har nektet denne forespørselen"
+      request_token_url: "Be Token URL"
+      revoke: Opphev!
+      services: Tjenester
+      show_label: Vise
+      support_url_label: "Støtte URL"
+      tokens_issued: "Følgende symboler er utstedt til programmer i ditt navn"
+      updated_successfully: "Oppdatert klienten informasjon hell"
+      we_support_hmac_sha: "Vi støtter HMAC-SHA1 (anbefales), så vel som ren tekst i SSL-modus."
+      wrong_id: "Feil program id"
+      you_are_already_connected_to: "Du er allerede koblet til %{service}"
+      you_are_connected_to_the_following_services: "Du er koblet til følgende tjenester:"
+      you_are_currently_not_connected_to_any_external_services: "Du er ikke koblet til noen eksterne tjenester."
+      you_can_connect_to_the_following_services: "Du kan koble til følgende tjenester:"
+      you_have_the_following_client_applications_registered: "Du har følgende klientprogrammer registrert:"
+      you_must_register_your_web_application: "Du må registrere din web applikasjonen før den kan gjøre OAuth forespørsler til denne tjenesten"

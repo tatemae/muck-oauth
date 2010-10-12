@@ -1,0 +1,54 @@
+--- 
+ko: 
+  muck: 
+    oauth: 
+      access_token_url: "액세스 토큰은 URL을"
+      application: "응용 프로그램"
+      application_developers: "응용 프로그램 개발자"
+      are_you_sure: 확실한가요?
+      authorize_access: "귀하의 계정에 액세스 권한 부여"
+      authorize_access_label: "액세스 권한을 부여"
+      authorize_access_question: "귀하의 계정에 대한 액세스 권한을 부여 %{name}} (%{link})을 올리시겠습니까?"
+      authorize_url: "권한 부여 URL을"
+      back: 뒤로
+      back_label: 뒤로
+      callback_label: "콜백 URL이 *"
+      connect_to_account_title: "연결 귀하의 계정에 %{service}"
+      consume_key: "소비자 키 :"
+      consume_secret: "소비자 비밀 :"
+      delete: 삭제
+      destroyed_successfully: "클라이언트 응용 프로그램을 등록 파괴"
+      disconnect: 분리
+      disconnect_or_reconnect: "%{disconnect}} 또는 %{reconnect} 경우 문제가 발생했습니다."
+      do_you_have_an_application_to_register: "당신이 우리와 함께 사용하기 위해 %{link} 표준을 사용하여 등록하고자하는 응용 프로그램이 있나요?"
+      edit: 편집
+      edit_application: "편집 응용 프로그램을"
+      edit_label: 편집
+      http_result_error: "여기 귀하의 요청을 %{error}와 문제"
+      issued: 발급
+      main_application_label: "주요 응용 프로그램 URL을 *"
+      name_label: "이름 *"
+      oauth_client_applications: "OAuth 클라이언트 응용 프로그램"
+      or: 또는
+      reconnect: "다시 연결"
+      register: 등록
+      register_a_new_application: "새로운 어플 리케이션 등록"
+      register_your_application: "등록 신청"
+      registered_successfully: "등록 정보를 성공적으로"
+      request_allowed: "당신이 요청을 허용해야"
+      request_disallowed: "당신이 요청에 반하는가"
+      request_token_url: "요청 토큰은 URL을"
+      revoke: 취소!
+      services: 서비스
+      show_label: 보이다
+      support_url_label: "기술 지원 홈페이지"
+      tokens_issued: "다음과 같은 토큰에 당신 이름이 응용 프로그램에 발행되었습니다"
+      updated_successfully: "성공적으로 고객 정보를 업데이트"
+      we_support_hmac_sha: "우리가 지원하는 hmac - sha1 ()뿐만 아니라, SSL 모드에서 일반 텍스트를 권장합니다."
+      wrong_id: "잘못된 응용 프로그램 ID"
+      you_are_already_connected_to: "당신은 이미 %{service}에 연결되어있는"
+      you_are_connected_to_the_following_services: "다음과 같은 서비스에 연결된 위치 :"
+      you_are_currently_not_connected_to_any_external_services: "현재 외부 서비스에 연결되어 있지 않습니다."
+      you_can_connect_to_the_following_services: "당신은 다음과 같은 서비스에 연결할 수있습니다 :"
+      you_have_the_following_client_applications_registered: "당신은 다음과 같은 클라이언트 응용 프로그램에 등록 :"
+      you_must_register_your_web_application: "그 전에이 서비스를 OAuth 요청을 할 수 귀하의 웹 응용 프로그램을 등록해야합니다"

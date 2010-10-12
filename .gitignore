@@ -29,3 +29,4 @@ pkg/*
 log/*
 global_config.yml
 test/rails_root/config/initializers/oauth_consumers.rb
+secrets.yml

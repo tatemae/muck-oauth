@@ -1,0 +1,54 @@
+--- 
+ar: 
+  muck: 
+    oauth: 
+      access_token_url: "رمز وصول رابط"
+      application: تطبيق
+      application_developers: "التطبيق للمطورين"
+      are_you_sure: "هل أنت متأكد؟"
+      authorize_access: "تخويل الوصول إلى حسابك"
+      authorize_access_label: "السماح بالوصول"
+      authorize_access_question: "تريد أن يأذن (%{name}})%{link}للوصول إلى حسابك؟"
+      authorize_url: "تأذن رابط"
+      back: خلف
+      back_label: خلف
+      callback_label: "رد رابط *"
+      connect_to_account_title: "الاتصال حسابك %{service}"
+      consume_key: "الاستهلاكية الرئيسية :"
+      consume_secret: "المستهلك السري :"
+      delete: حذف
+      destroyed_successfully: "دمرت العميل طلب التسجيل"
+      disconnect: قطع
+      disconnect_or_reconnect: "%{disconnect}}أو %{reconnect}إذا واجهت مشكلة."
+      do_you_have_an_application_to_register: "هل لديك تطبيق لكم نود أن نسجل للاستخدام مع لنا باستخدام معيار %{link}؟"
+      edit: عدل
+      edit_application: "عدل طلبك"
+      edit_label: عدل
+      http_result_error: "كانت هناك مشكلة مع الطلب الخاص بك %{error}"
+      issued: أصدر
+      main_application_label: "* العنوان الرئيسي التطبيق"
+      name_label: "الاسم *"
+      oauth_client_applications: "OAuth تطبيقات العميل"
+      or: أو
+      reconnect: إعادة
+      register: سجل
+      register_a_new_application: "تسجيل طلب جديد"
+      register_your_application: "سجل طلبك"
+      registered_successfully: "تسجيل المعلومات بنجاح"
+      request_allowed: "كنت قد سمحت لهذا الطلب"
+      request_disallowed: "كنت قد ألغى هذا الطلب"
+      request_token_url: "طلب رمز عنوان"
+      revoke: إبطال!
+      services: الخدمات
+      show_label: يظهر
+      support_url_label: "رابط الدعم"
+      tokens_issued: "والرموز التالية قد صدرت إلى تطبيقات في اسمك"
+      updated_successfully: "تحديث معلومات العميل بنجاح"
+      we_support_hmac_sha: "نحن نؤيد hmac - sha1 (مستحسن) ، وكذلك نص عادي في وضع تصميم المواقع."
+      wrong_id: "تطبيق خاطئ معرف"
+      you_are_already_connected_to: "كنت بالفعل متصلة %{service}"
+      you_are_connected_to_the_following_services: "كنت متصلا الخدمات التالية :"
+      you_are_currently_not_connected_to_any_external_services: "كنت حاليا لا علاقة لها بأي الخدمات الخارجية."
+      you_can_connect_to_the_following_services: "يمكنك الاتصال الخدمات التالية :"
+      you_have_the_following_client_applications_registered: "لديك ما يلي تطبيقات العميل المسجلة :"
+      you_must_register_your_web_application: "يجب عليك تسجيل تطبيقات الويب الخاصة بك قبل أن تتمكن من تقديم طلبات OAuth لهذه الخدمة"

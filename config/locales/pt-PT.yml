@@ -1,0 +1,54 @@
+--- 
+pt-PT: 
+  muck: 
+    oauth: 
+      access_token_url: "Token de acesso URL"
+      application: Aplicativo
+      application_developers: "Application Developers"
+      are_you_sure: "Tem certeza?"
+      authorize_access: "Autorizar o acesso à sua conta"
+      authorize_access_label: "autorizar o acesso"
+      authorize_access_question: "Gostaria de autorizar (%{name}}) %{link} para acessar sua conta?"
+      authorize_url: "Autorizar URL"
+      back: Costas
+      back_label: Costas
+      callback_label: "Callback URL *"
+      connect_to_account_title: "Conectar-se à sua conta %{service}"
+      consume_key: "Consumidor-chave:"
+      consume_secret: "Consumidor Secreto:"
+      delete: Excluir
+      destroyed_successfully: "Destruiu o pedido de registo de cliente"
+      disconnect: Desligar
+      disconnect_or_reconnect: "%{disconnect}} Ou %{reconnect} se você teve um problema."
+      do_you_have_an_application_to_register: "Você tem um aplicativo que você gostaria de registrar para o uso com a gente usando o padrão %{link}?"
+      edit: Editar
+      edit_application: "Edite seu pedido"
+      edit_label: Editar
+      http_result_error: "Houve um problema com seu pedido %{error}"
+      issued: Emitido
+      main_application_label: "Aplicação principal URL *"
+      name_label: "Nome *"
+      oauth_client_applications: "Aplicações OAuth Cliente"
+      or: ou
+      reconnect: Reconectar
+      register: Registre-se
+      register_a_new_application: "Registre um novo aplicativo"
+      register_your_application: "Cadastre seu pedido"
+      registered_successfully: "Registado informações com sucesso"
+      request_allowed: "Você tem permitido este pedido"
+      request_disallowed: "Você tem recusado esse pedido"
+      request_token_url: "Pedido Token URL"
+      revoke: Revogar!
+      services: Serviços
+      show_label: Mostrar
+      support_url_label: "Support URL"
+      tokens_issued: "Os símbolos seguintes foram emitidos para as aplicações em seu nome"
+      updated_successfully: "Actualizadas as informações cliente com êxito"
+      we_support_hmac_sha: "Apoiamos hmac-sha1 (recomendado), bem como texto simples no modo SSL."
+      wrong_id: "Aplicação errada id"
+      you_are_already_connected_to: "Você já está conectado a %{service}"
+      you_are_connected_to_the_following_services: "Você está conectado com os seguintes serviços:"
+      you_are_currently_not_connected_to_any_external_services: "Você não está ligado a todos os serviços externos."
+      you_can_connect_to_the_following_services: "Você pode ligar para os seguintes serviços:"
+      you_have_the_following_client_applications_registered: "Você tem as seguintes aplicações de cliente registrado:"
+      you_must_register_your_web_application: "Você deve registrar seu aplicativo da Web antes que ele possa fazer solicitações OAuth a este serviço"

@@ -1,0 +1,54 @@
+--- 
+el: 
+  muck: 
+    oauth: 
+      access_token_url: "Πρόσβαση Token URL"
+      application: Αίτηση
+      application_developers: "Application Developers"
+      are_you_sure: "Είσαι σίγουρος;"
+      authorize_access: "Επιτρέπουν την πρόσβαση στο λογαριασμό σας"
+      authorize_access_label: "επιτρέπουν την πρόσβαση"
+      authorize_access_question: "Θα θέλατε να επιτρέψει %{name}} (%{link}) για πρόσβαση στο λογαριασμό σας;"
+      authorize_url: "Εξουσιοδότηση URL"
+      back: Πίσω
+      back_label: Πίσω
+      callback_label: "Callback URL *"
+      connect_to_account_title: "Συνδεθείτε με %{service} λογαριασμό σας"
+      consume_key: "Καταναλωτών Key:"
+      consume_secret: "Καταναλωτών Secret:"
+      delete: Διαγράφω
+      destroyed_successfully: "Κατέστρεψε την καταχώρηση αίτησης πελάτη"
+      disconnect: Αποσύνδεση
+      disconnect_or_reconnect: "%{disconnect}} Ή %{reconnect} εάν έχετε παρουσιάσει κάποιο πρόβλημα."
+      do_you_have_an_application_to_register: "Έχετε μια εφαρμογή που θα θέλατε να εγγραφείτε για χρήση μαζί μας χρησιμοποιώντας το %{link} πρότυπο;"
+      edit: Επεξεργασία
+      edit_application: "Επεξεργασία αίτησή σας"
+      edit_label: Επεξεργασία
+      http_result_error: "Υπήρξε ένα πρόβλημα με %{error} το αίτημά σας"
+      issued: Δημοσιεύτηκε
+      main_application_label: "Κύρια Εφαρμογή URL *"
+      name_label: "Όνομα *"
+      oauth_client_applications: "OAuth Εφαρμογές Client"
+      or: ή
+      reconnect: Επανασύνδεση
+      register: Εγγραφή
+      register_a_new_application: "Εγγραφή νέου αίτηση"
+      register_your_application: "Εγγραφή αίτησή σας"
+      registered_successfully: "Εγγεγραμμένοι οι πληροφορίες επιτυχία"
+      request_allowed: "Έχετε τη δυνατότητα αυτό το αίτημα"
+      request_disallowed: "Έχετε να αρθεί αυτό το αίτημα"
+      request_token_url: "Αίτηση Token URL"
+      revoke: Ανακαλέσει!
+      services: Υπηρεσίες
+      show_label: Θέαμα
+      support_url_label: "URL Υποστήριξη"
+      tokens_issued: "Οι ακόλουθες μάρκες που έχουν εκδοθεί για τις αιτήσεις στο όνομά σας"
+      updated_successfully: "Ενημέρωση των πληροφοριών πελάτη με επιτυχία"
+      we_support_hmac_sha: "Υποστηρίζουμε hmac-sha1 (συνιστάται), καθώς και ως απλό κείμενο στο ssl mode."
+      wrong_id: "Λάθος αίτηση id"
+      you_are_already_connected_to: "Είστε ήδη συνδεδεμένοι με %{service}"
+      you_are_connected_to_the_following_services: "Είστε συνδεδεμένοι με τις ακόλουθες υπηρεσίες:"
+      you_are_currently_not_connected_to_any_external_services: "Αυτή τη στιγμή δεν είναι συνδεδεμένα με κανένα εξωτερικές υπηρεσίες."
+      you_can_connect_to_the_following_services: "Μπορείτε να συνδεθείτε με τις ακόλουθες υπηρεσίες:"
+      you_have_the_following_client_applications_registered: "Έχετε τις ακόλουθες εφαρμογές καταχωρηθεί πελάτη:"
+      you_must_register_your_web_application: "Πρέπει να εγγραφείτε web εφαρμογή σας πριν να μπορεί να OAuth αιτήσεις σε αυτή την υπηρεσία"

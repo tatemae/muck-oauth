@@ -1,0 +1,54 @@
+--- 
+bg: 
+  muck: 
+    oauth: 
+      access_token_url: "Достъпът Знак URL"
+      application: Приложение
+      application_developers: "Application Developers"
+      are_you_sure: "Сигурни ли сте?"
+      authorize_access: "Разрешете достъп до профила си"
+      authorize_access_label: "разрешават достъп"
+      authorize_access_question: "Бихте ли искали да разрешат %{name}} (%{link}) за достъп до вашия профил?"
+      authorize_url: "Разрешете URL"
+      back: Отзад
+      back_label: Отзад
+      callback_label: "Callback URL *"
+      connect_to_account_title: "Свържете се към вашия %{service} сметка"
+      consume_key: "Ключ на потребителите:"
+      consume_secret: "Тайната на потребителите:"
+      delete: Изтривам
+      destroyed_successfully: "Унищожени регистрацията клиентско приложение"
+      disconnect: Прекъсване
+      disconnect_or_reconnect: "%{disconnect}} Или %{reconnect} ако сте имали проблем."
+      do_you_have_an_application_to_register: "Имате ли приложението, което биха искали да се регистрирате за употреба с нас чрез %{link} стандарт?"
+      edit: Редактиране
+      edit_application: "Редактиране на вашата кандидатура"
+      edit_label: Редактиране
+      http_result_error: "Имаше проблем с искане %{error}"
+      issued: Издава
+      main_application_label: "Основното приложение URL *"
+      name_label: "Име *"
+      oauth_client_applications: "OAuth клиентските приложения"
+      or: или
+      reconnect: "Включете отново"
+      register: Регистрация
+      register_a_new_application: "Регистрация на нов прилагане"
+      register_your_application: "Регистрация вашата кандидатура"
+      registered_successfully: "Регистриран на информация успешно"
+      request_allowed: "Можете да позволи това искане"
+      request_disallowed: "Имате право забранени тази заявка"
+      request_token_url: "Заявка Знак URL"
+      revoke: Отменете!
+      services: Услуги
+      show_label: Показвам
+      support_url_label: "Подкрепа URL"
+      tokens_issued: "Следните символи са издадени на приложения в името си"
+      updated_successfully: "Промяна на информация на клиента, успешно"
+      we_support_hmac_sha: "Ние подкрепяме HMAC-sha1 (препоръчително), както и като обикновен текст в SSL режим."
+      wrong_id: "Грешен ID на приложение"
+      you_are_already_connected_to: "Вие вече сте свързани към %{service}"
+      you_are_connected_to_the_following_services: "Вие сте свързан към следните услуги:"
+      you_are_currently_not_connected_to_any_external_services: "Вие не сте свързани към всякакви външни услуги."
+      you_can_connect_to_the_following_services: "Можете да се свържете на следните услуги:"
+      you_have_the_following_client_applications_registered: "Имате следните приложения клиент регистрирани:"
+      you_must_register_your_web_application: "Трябва да се регистрирате вашия уеб приложение, преди да може да OAuth искания за тази услуга"

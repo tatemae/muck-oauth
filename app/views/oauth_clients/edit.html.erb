@@ -1,5 +1,5 @@
 <h1><%=translate('muck.oauth.edit_application') %></h1>
-<% form_for :client_application, @client_application, :url => oauth_client_path(@client_application), :html => {:method => :put}  do |f| %>
+<%= form_for :client_application, @client_application, :url => oauth_client_path(@client_application), :html => {:method => :put}  do |f| %>
        <%= render :partial => "form", :locals => { :f => f } %>
        <%= submit_tag translate('muck.oauth.edit_label') %>
 <% end %>

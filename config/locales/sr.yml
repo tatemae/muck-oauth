@@ -1,0 +1,54 @@
+--- 
+sr: 
+  muck: 
+    oauth: 
+      access_token_url: "Приступа токен УРЛ адреса"
+      application: Апликација
+      application_developers: "Програмери апликација"
+      are_you_sure: "Јесте ли сигурни?"
+      authorize_access: "Ауторизација приступа Вашем рачуну"
+      authorize_access_label: "овластити приступ"
+      authorize_access_question: "Желите ли да овласти %{name}} (%{link}) да приступите свом налогу?"
+      authorize_url: "Овластити УРЛ адреса"
+      back: Назад
+      back_label: Назад
+      callback_label: "Повратни УРЛ адреса *"
+      connect_to_account_title: "Повежите се на свој рачун %{service}"
+      consume_key: "Кључне потрошача:"
+      consume_secret: "Тајна потрошача:"
+      delete: Избрисати
+      destroyed_successfully: "Уништене клијентску апликацију за регистрацију"
+      disconnect: Раскини
+      disconnect_or_reconnect: "%{disconnect}} Или %{reconnect} ако сте имали проблема."
+      do_you_have_an_application_to_register: "Да ли имате апликацију желите да се пријавите за коришћење са нама помоћу стандардних %{link}?"
+      edit: Измени
+      edit_application: "Измените вашу пријаву"
+      edit_label: Измени
+      http_result_error: "Било је проблема са свом захтеву %{error}"
+      issued: Издадени
+      main_application_label: "Главни Захтев УРЛ-*"
+      name_label: "Име *"
+      oauth_client_applications: "ОАутх Клијент Апликације"
+      or: или
+      reconnect: Поврати
+      register: "Региструјте се"
+      register_a_new_application: "Региструјте се нови захтев"
+      register_your_application: "Региструјте се ваша пријава"
+      registered_successfully: "Регистровани подаци успешно"
+      request_allowed: "Ви сте дозволили овај захтев"
+      request_disallowed: "Имате одбијена овај захтев"
+      request_token_url: "Захтев УРЛ-токен"
+      revoke: Укинути!
+      services: Услуге
+      show_label: Приказивати
+      support_url_label: "Подршка УРЛ адреса"
+      tokens_issued: "Следећи токена су издате апликације у ваше име"
+      updated_successfully: "Успешно ажурирани клијент информације"
+      we_support_hmac_sha: "Ми подржавамо хмац-СХА1 (препоручује се), као обичан текст у ССЛ моду."
+      wrong_id: "Погрешна примена ИД"
+      you_are_already_connected_to: "Већ сте повезани на %{service}"
+      you_are_connected_to_the_following_services: "Су повезани сте на следеће услуге:"
+      you_are_currently_not_connected_to_any_external_services: "Тренутно нисте повезани на било спољним услугама."
+      you_can_connect_to_the_following_services: "Можете се повезати на следеће услуге:"
+      you_have_the_following_client_applications_registered: "Имате следеће клијентске апликације регистровано:"
+      you_must_register_your_web_application: "Морате се регистровати своју веб апликацију пре него што може да ОАутх захтева за ову услугу"

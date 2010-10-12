@@ -13,7 +13,7 @@ Add the following to environment.rb
   config.gem "muck-oauth"
 
 Add the following to your user model:
-  acts_as_muck_oauth_user
+  include MuckOauth::Models::MuckUser
 
 == Configuration
 Add the following to global_config.yml. Be sure to get keys from each service that you want to interact with.
@@ -96,4 +96,4 @@ If you get an error like this:
   uninitialized constant User::TwitterToken
 it means you need to setup your global_config.yml with the values specified above.
 
-Copyright (c) 2009 Tatemae.com. See LICENSE for details.
+Copyright (c) 2009-2010 Tatemae.com. See LICENSE for details.

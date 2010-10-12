@@ -1,0 +1,54 @@
+--- 
+en: 
+  muck: 
+    oauth: 
+      back: Back
+      do_you_have_an_application_to_register: Do you have an application you would like to register for use with us using the %{link} standard?
+      support_url_label: Support URL
+      updated_successfully: Updated the client information successfully
+      reconnect: Reconnect
+      you_are_currently_not_connected_to_any_external_services: You are currently not connected to any external services.
+      edit: Edit
+      are_you_sure: Are you sure?
+      delete: Delete
+      issued: Issued
+      main_application_label: Main Application URL*
+      destroyed_successfully: Destroyed the client application registration
+      connect_to_account_title: Connect to your %{service} account
+      or: or
+      register_a_new_application: Register a new application
+      register: Register
+      register_your_application: Register your application
+      application_developers: Application Developers
+      name_label: Name*
+      request_allowed: You have allowed this request
+      authorize_access_question: Would you like to authorize %{name}} (%{link}) to access your account?
+      you_are_already_connected_to: You are already Connected to %{service}
+      request_token_url: Request Token URL
+      application: Application
+      you_can_connect_to_the_following_services: "You can connect to the following services:"
+      consume_key: "Consumer Key:"
+      oauth_client_applications: OAuth Client Applications
+      back_label: Back
+      callback_label: Callback URL*
+      authorize_access_label: authorize access
+      registered_successfully: Registered the information successfully
+      wrong_id: Wrong application id
+      you_are_connected_to_the_following_services: "You are connected to the following services:"
+      authorize_url: Authorize URL
+      access_token_url: Access Token URL
+      tokens_issued: The following tokens have been issued to applications in your name
+      services: Services
+      revoke: Revoke!
+      authorize_access: Authorize access to your account
+      you_have_the_following_client_applications_registered: "You have the following client applications registered:"
+      you_must_register_your_web_application: You must register your web application before it can make OAuth requests to this service
+      show_label: Show
+      edit_label: Edit
+      edit_application: Edit your application
+      disconnect_or_reconnect: "%{disconnect}} or %{reconnect} if you experienced a problem."
+      disconnect: Disconnect
+      we_support_hmac_sha: We support hmac-sha1 (recommended) as well as plain text in ssl mode.
+      consume_secret: "Consumer Secret:"
+      request_disallowed: You have disallowed this request
+      http_result_error: "There was a problem with your request %{error}"

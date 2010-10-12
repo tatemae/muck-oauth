@@ -1,0 +1,54 @@
+--- 
+iw: 
+  muck: 
+    oauth: 
+      access_token_url: "אסימון הגישה כתובת"
+      application: יישום
+      application_developers: "Application Developers"
+      are_you_sure: "האם אתה בטוח?"
+      authorize_access: "גישה לאשר את החשבון שלך"
+      authorize_access_label: "לאשר גישה"
+      authorize_access_question: "האם אתה רוצה לאשר (%{name}}) %{link} גישה לחשבון שלך?"
+      authorize_url: "להסמיך כתובת"
+      back: חזרה
+      back_label: חזרה
+      callback_label: "התקשרות כתובת *"
+      connect_to_account_title: "התחבר לחשבון שלך %{service}"
+      consume_key: "הצרכן מפתח:"
+      consume_secret: "הצרכן החשאי:"
+      delete: למחוק
+      destroyed_successfully: "הרסו את רישום יישום לקוח"
+      disconnect: נתק
+      disconnect_or_reconnect: "%{disconnect}} או %{reconnect} אם אתה נתקל בבעיה."
+      do_you_have_an_application_to_register: "האם יש לך בקשה ברצונך להירשם לשימוש איתנו באמצעות תקן %{link}?"
+      edit: עריכה
+      edit_application: "עריכת הבקשה שלך"
+      edit_label: עריכה
+      http_result_error: "היתה בעיה עם %{error} בקשתך"
+      issued: המונפק
+      main_application_label: "ראשי Application כתובת האתר *"
+      name_label: "שם *"
+      oauth_client_applications: "OAuth יישומי לקוח"
+      or: או
+      reconnect: Reconnect
+      register: הרשמה
+      register_a_new_application: "הרשמה בקשה חדשה"
+      register_your_application: "הרשמה הבקשה שלך"
+      registered_successfully: "רשום את המידע בהצלחה"
+      request_allowed: "לך מותר בקשה זו"
+      request_disallowed: "יש לך אסורים בקשה זו"
+      request_token_url: "בקש אסימון כתובת"
+      revoke: לבטל!
+      services: שירותים
+      show_label: להציג
+      support_url_label: "כתובת אתר תמיכה"
+      tokens_issued: "אסימונים הבאה שהוצאו על יישומים בשם שלך"
+      updated_successfully: "עדכון פרטי לקוח בהצלחה"
+      we_support_hmac_sha: "אנו תומכים hmac-sha1 (מומלץ) וכן טקסט רגיל במצב SSL."
+      wrong_id: "יישום שגוי ID"
+      you_are_already_connected_to: "אתה כבר מחובר ל %{service}"
+      you_are_connected_to_the_following_services: "אתה מחובר את השירותים הבאים:"
+      you_are_currently_not_connected_to_any_external_services: "נכון לעכשיו, אתה לא מחובר כל שירות חיצוני."
+      you_can_connect_to_the_following_services: "אתה יכול להתחבר לשירותים הבאים:"
+      you_have_the_following_client_applications_registered: "יש לך את הפעולות הבאות יישומי לקוח רשום:"
+      you_must_register_your_web_application: "אתה חייב לרשום את יישום האינטרנט שלך לפני שתוכל לבצע בקשות OAuth לשירות זה"

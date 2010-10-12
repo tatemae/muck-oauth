@@ -2,9 +2,7 @@ require 'rake'
 require 'rake/testtask'
 require 'rake/rdoctask'
 
-desc 'Default: run unit tests.'
-task :default => :test
-task :test => :check_dependencies
+task :default => :spec
 
 begin
   require 'jeweler'
@@ -20,14 +18,10 @@ begin
     gem.add_dependency "oauth-plugin", '~> 0.3.14'
     gem.add_dependency "twitter", '~> 0.9.5'
     gem.add_dependency "portablecontacts", '>= 0.1.0'
-    gem.add_dependency "agree2"
-    gem.add_dependency "fireeagle"
-    gem.add_dependency "linkedin", '~> 0.1.2'
     gem.add_dependency "overlord"
     gem.add_dependency "muck-engine"
     gem.add_dependency "muck-users"
     gem.add_development_dependency "babelphish"
-    gem.add_development_dependency "shoulda"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
@@ -35,20 +29,12 @@ rescue LoadError
   puts "Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
 end
 
-require 'rake/testtask'
-Rake::TestTask.new(:test) do |t|
-  t.libs << 'lib'
-  t.libs << 'test/rails_root/test'
-  t.pattern = 'test/rails_root/test/**/*_test.rb'
-  t.verbose = true
-end
-
 begin
   require 'rcov/rcovtask'
   Rcov::RcovTask.new do |t|
     #t.libs << 'lib'
-    t.libs << 'test/rails_root/lib'
-    t.pattern = 'test/rails_root/test/**/*_test.rb'
+    t.libs << 'test/rails_test/lib'
+    t.pattern = 'test/rails_test/test/**/*_test.rb'
     t.verbose = true
     t.output_dir = 'coverage'
     t.rcov_opts << '--exclude "gems/*"'
