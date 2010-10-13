@@ -105,6 +105,7 @@ Gem::Specification.new do |s|
      "lib/muck_oauth/services/plaxo_token.rb",
      "lib/muck_oauth/services/yahoo_token.rb",
      "lib/muck_oauth/tasks.rb",
+     "muck-oauth.gemspec",
      "test/rails_test/.gitignore",
      "test/rails_test/.rake_tasks",
      "test/rails_test/Gemfile",
@@ -2074,7 +2075,8 @@ Gem::Specification.new do |s|
      "test/rails_test/spec/models/oauth_nonce_spec.rb",
      "test/rails_test/spec/models/oauth_token_spec.rb",
      "test/rails_test/spec/models/user_test.rb",
-     "test/rails_test/spec/spec_helper.rb"
+     "test/rails_test/spec/spec_helper.rb",
+     "test/rails_test/test/fixtures/rails.png"
   ]
   s.homepage = %q{http://github.com/tatemae/muck-oauth}
   s.rdoc_options = ["--charset=UTF-8"]
