@@ -6,13 +6,20 @@ gem 'mysql'
 # gem 'authlogic'
 # TODO this is temporary until the official authlogic gem is updated for rails 3
 gem 'authlogic', :git => 'git://github.com/odorcicd/authlogic.git', :branch => 'rails3'
-gem 'will_paginate', "~> 3.0.pre2"
 
-# TODO Remove this once the validation_reflection gem is released for Rails 3 and the version has been updated in muck-engine
-gem "validation_reflection", :git => "http://github.com/redinger/validation_reflection.git", :branch => "rails-3"
+
 
 gem "bcrypt-ruby", :require => "bcrypt"
-gem 'overlord'
+
+
+# Include these gems if using muck-oauth
+gem 'oauth'
+gem 'oauth-plugin'
+gem 'twitter'
+gem "linkedin", '0.1.8', :git => "git://github.com/jbasdf/linkedin.git" # The released version of the linkedin gem doesn't work with oauth 0.4.0 so fork it.
+#gem "linkedin", '0.1.8', :path => "~/projects/linkedin"
+
+gem 'portablecontacts'
 
 gem 'muck-engine', :require => 'muck_engine', :path => "~/projects/muck-engine"
 gem 'muck-users', :require => 'muck_users', :path => "~/projects/muck-users"
