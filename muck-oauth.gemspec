@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball"]
-  s.date = %q{2010-10-12}
+  s.date = %q{2010-10-13}
   s.description = %q{A simple wrapper for the oauth and oauth-plugin gems so that it is faster to include oauth in muck based applications.}
   s.email = %q{justin@tatemae.com}
   s.extra_rdoc_files = [
@@ -94,17 +94,17 @@ Gem::Specification.new do |s|
      "config/routes.rb",
      "db/migrate/20091205001023_create_oauth_consumer_tokens.rb",
      "db/migrate/20091210172015_create_oauth_tables.rb",
-     "lib/muck_oauth.rb",
-     "lib/muck_oauth/config.rb",
-     "lib/muck_oauth/engine.rb",
-     "lib/muck_oauth/exceptions.rb",
-     "lib/muck_oauth/models/oauth_user.rb",
-     "lib/muck_oauth/services/friendfeed_token.rb",
-     "lib/muck_oauth/services/google_token.rb",
-     "lib/muck_oauth/services/linkedin_token.rb",
-     "lib/muck_oauth/services/plaxo_token.rb",
-     "lib/muck_oauth/services/yahoo_token.rb",
-     "lib/muck_oauth/tasks.rb",
+     "lib/muck-oauth.rb",
+     "lib/muck-oauth/config.rb",
+     "lib/muck-oauth/engine.rb",
+     "lib/muck-oauth/exceptions.rb",
+     "lib/muck-oauth/models/oauth_user.rb",
+     "lib/muck-oauth/services/friendfeed_token.rb",
+     "lib/muck-oauth/services/google_token.rb",
+     "lib/muck-oauth/services/linkedin_token.rb",
+     "lib/muck-oauth/services/plaxo_token.rb",
+     "lib/muck-oauth/services/yahoo_token.rb",
+     "lib/muck-oauth/tasks.rb",
      "muck-oauth.gemspec",
      "test/rails_test/.gitignore",
      "test/rails_test/.rake_tasks",
