@@ -21,7 +21,7 @@ gem "linkedin", '0.1.8', :git => "git://github.com/jbasdf/linkedin.git" # The re
 
 gem 'portablecontacts'
 
-gem 'muck-engine', :require => 'muck_engine', :path => "~/projects/muck-engine"
+gem 'muck-engine', :path => "~/projects/muck-engine"
 gem 'muck-users', :require => 'muck_users', :path => "~/projects/muck-users"
 gem 'muck-oauth', :require => 'muck_oauth', :path => '../../'  
   
