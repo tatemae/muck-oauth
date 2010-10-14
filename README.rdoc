@@ -1,6 +1,9 @@
 = muck-oauth
 This gem wraps oauth and oauth-plugin to make it simple to get tokens for services that muck can interact with various services.
 
+Please note that this gem is no longer being maintained. We are migrating to muck-auth which uses omniauth.
+
+
 For more documentation see:
 http://github.com/pelle/oauth-plugin
 http://stakeventures.com/articles/2009/07/21/consuming-oauth-intelligently-in-rails

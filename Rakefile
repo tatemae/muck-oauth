@@ -1,8 +1,13 @@
 require 'rake'
 require 'rake/testtask'
 require 'rake/rdoctask'
+require 'spec/rake/spectask'
 
+desc 'Default: run specs.'
 task :default => :spec
+Spec::Rake::SpecTask.new('spec') do |t|
+  t.spec_files = FileList['test/rails_test/spec/**/*_spec.rb']
+end
 
 begin
   require 'jeweler'
@@ -56,7 +61,7 @@ Rake::RDocTask.new do |rdoc|
   end
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "muck_oauth #{version}"
+  rdoc.title = "muck-oauth #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
