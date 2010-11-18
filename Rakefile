@@ -1,12 +1,13 @@
 require 'rake'
 require 'rake/testtask'
 require 'rake/rdoctask'
-require 'spec/rake/spectask'
+require 'rspec/core/rake_task'
 
 desc 'Default: run specs.'
 task :default => :spec
-Spec::Rake::SpecTask.new('spec') do |t|
-  t.spec_files = FileList['test/rails_test/spec/**/*_spec.rb']
+RSpec::Core::RakeTask.new(:spec) do |t|
+  t.rspec_opts = ["--color", "-c", "-f progress", "-r test/spec/spec_helper.rb"]
+  t.pattern = 'test/spec/**/*_spec.rb'  
 end
 
 begin
@@ -17,7 +18,7 @@ begin
     gem.description = %Q{A simple wrapper for the oauth and oauth-plugin gems so that it is faster to include oauth in muck based applications.}
     gem.email = "justin@tatemae.com"
     gem.homepage = "http://github.com/tatemae/muck-oauth"
-    gem.rubyforge_project = "muck-oauth"
+    
     gem.authors = ["Justin Ball"]
     gem.add_dependency "oauth", '>= 0.3.6'
     gem.add_dependency "oauth-plugin", '~> 0.3.14'
@@ -27,6 +28,8 @@ begin
     gem.add_dependency "muck-engine"
     gem.add_dependency "muck-users"
     gem.add_development_dependency "babelphish"
+    gem.files.exclude 'test/**'
+    gem.test_files.exclude 'test/**'
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
@@ -38,8 +41,8 @@ begin
   require 'rcov/rcovtask'
   Rcov::RcovTask.new do |t|
     #t.libs << 'lib'
-    t.libs << 'test/rails_test/lib'
-    t.pattern = 'test/rails_test/test/**/*_test.rb'
+    t.libs << 'test/lib'
+    t.pattern = 'test/test/**/*_spec.rb'
     t.verbose = true
     t.output_dir = 'coverage'
     t.rcov_opts << '--exclude "gems/*"'
